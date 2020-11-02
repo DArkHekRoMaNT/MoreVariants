@@ -1,0 +1,50 @@
+{
+  "code": "table",
+  "variantgroups": [{ "code": "type", "states": ["birch", "maple", "pine", "acacia", "kapok"] }],
+  "shape": { "base": "game:block/wood/table" },
+  "heldTpIdleAnimation": "holdunderarm",
+  "creativeinventory": { "general": ["*"], "decorative": ["*"] },
+  "attributes": {
+    "handbook": {
+      "groupBy": ["table-*"]
+    }
+  },
+  "blockmaterial": "Wood",
+  "replaceable": 900,
+  "resistance": 1.5,
+  "lightAbsorption": 1,
+  "sidesolid": {
+    "up": true,
+    "all": false
+  },
+  "sideopaque": {
+    "up": true,
+    "all": false
+  },
+  "sounds": {
+    "place": "game:block/planks",
+    "hit": "game:block/planks",
+    "break": "game:block/planks",
+    "walk": "game:walk/wood"
+  },
+  "combustibleProps": {
+    "burnTemperature": 600,
+    "burnDuration": 35
+  },
+  "textures": {
+    "sides": { "base": "block/wood/table/{type}/sides" },
+    "top": { "base": "block/wood/table/{type}/top" },
+    "bottom": { "base": "block/wood/table/{type}/bottom" },
+    "legs": { "base": "block/wood/table/{type}/legs" }
+  },
+  "materialDensity": 400,
+  "tpHandTransform": {
+    "translation": { "x": -0.7, "y": -0.6, "z": -0.9 },
+    "rotation": { "x": 80, "y": 0, "z": 0 },
+    "scale": 0.56
+  },
+  "fpHandTransform": {
+    "translation": { "x": 0.08, "y": -0.2, "z": 0.6 },
+    "rotation": { "x": 33, "y": 134, "z": -102 }
+  }
+}

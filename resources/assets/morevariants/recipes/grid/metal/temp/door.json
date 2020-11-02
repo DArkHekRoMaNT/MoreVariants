@@ -1,0 +1,9 @@
+{
+  "ingredientPattern": "II,II,II",
+  "ingredients": {
+    "I": { "type": "item", "code": "game:ingot-*", "name": "type", "allowedVariants": ["iron", "copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "steel", "brass", "bismuth", "tin", "molybdochalkos"] }
+  },
+  "width": 2,
+  "height": 3,
+  "output": { "type": "block", "code": "metaldoor-{type}-north-down-closed-left", "quantity": 1 }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "ingredientPattern": "CP",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "labeledchest-east"
+      },
+      "P": {
+        "type": "item",
+        "code": "game:metalplate-copper"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "extrachests:labeledchest-east",
+      "attributes": { "type": "copper" }
+    }
+  }
+]

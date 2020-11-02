@@ -1,0 +1,59 @@
+{
+  "code": "chandelier",
+  "__comment": "BlockChandelier handles the placing of candles on the chandelier",
+  "class": "BlockChandelier",
+  "behaviors": [{ "name": "Unstable", "properties": { "attachedToFaces": ["up", "down"] } }],
+  "attributes": { "handbook": { "exclude": true } },
+  "variantgroups": [
+    { "code": "material", "states": ["copper", "tinbronze", "bismuthbronze", "silver", "gold", "steel", "brass", "bismuth", "tin", "molybdochalkos", "iron"] },
+    { "code": "type", "states": ["candle0", "candle1", "candle2", "candle3", "candle4", "candle5", "candle6", "candle7", "candle8"] }
+  ],
+  "creativeinventory": {
+    "general": ["*-candle0", "*-candle8"],
+    "decorative": ["*-candle0", "*-candle8"]
+  },
+  "textures": {
+    "blackbronze": { "base": "block/metal/chandelier/{material}" },
+    "candle": { "base": "game:block/candle" }
+  },
+  "shape": { "base": "game:block/metal/chandelier/{type}" },
+  "drawtype": "json",
+  "blockmaterial": "Metal",
+  "sidesolid": { "all": false },
+  "sideopaque": { "all": false },
+  "resistance": 3,
+  "lightHsvByType": {
+    "chandelier-candle0": [9, 3, 0],
+    "chandelier-candle1": [9, 3, 8],
+    "chandelier-candle1": [9, 3, 10],
+    "chandelier-candle2": [9, 3, 12],
+    "chandelier-candle3": [9, 3, 14],
+    "chandelier-candle4": [9, 3, 16],
+    "chandelier-candle5": [9, 3, 18],
+    "chandelier-candle6": [9, 3, 20],
+    "chandelier-candle7": [9, 3, 22],
+    "chandelier-candle8": [9, 3, 24]
+  },
+  "drops": [
+    {
+      "type": "item",
+      "code": "game:candle",
+      "quantityByType": {
+        "*0": { "avg": 0 },
+        "*1": { "avg": 1 },
+        "*2": { "avg": 2 },
+        "*3": { "avg": 3 },
+        "*4": { "avg": 4 },
+        "*5": { "avg": 5 },
+        "*6": { "avg": 6 },
+        "*7": { "avg": 7 },
+        "*8": { "avg": 8 }
+      }
+    },
+    {
+      "type": "block",
+      "code": "chandelier-{material}-candle0"
+    }
+  ],
+  "lightAbsorption": 0
+}

@@ -1,0 +1,10 @@
+{
+  "ingredientPattern": "WWW,SSS,WWW",
+  "ingredients": {
+    "W": { "type": "item", "code": "game:plank-*", "allowedVariants": ["birch", "maple", "pine", "acacia", "kapok", "aged"], "name": "type" },
+    "S": { "type": "item", "code": "game:stick" }
+  },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "trapdoor-{type}-closed-up-north", "quantity": 2 }
+}

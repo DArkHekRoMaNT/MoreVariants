@@ -1,0 +1,10 @@
+{
+  "ingredientPattern": "SPS,_P_,SPS",
+  "ingredients": {
+    "S": { "type": "item", "code": "game:stick" },
+    "P": { "type": "item", "code": "game:plank-*", "allowedVariants": ["birch", "maple", "pine", "acacia", "kapok", "aged"], "name": "type" }
+  },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "barrel-{type}" }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "file": "morevariants:recipes/grid/metal/sheet.json",
+    "op": "replace",
+    "path": "/ingredients",
+    "value": {
+      "C": { "type": "block", "code": "game:cobblestone-*" },
+      "M": { "type": "block", "code": "game:metalsheet-*-down", "name": "type" }
+    }
+  },
+  {
+    "file": "morevariants:recipes/grid/metal/sheetstairs.json",
+    "op": "replace",
+    "path": "/ingredients",
+    "value": {
+      "C": { "type": "block", "code": "game:cobblestonestairs-*" },
+      "M": { "type": "block", "code": "game:metalsheet-*-down", "name": "type" }
+    }
+  }
+]

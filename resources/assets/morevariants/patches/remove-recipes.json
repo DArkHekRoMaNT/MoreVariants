@@ -1,0 +1,71 @@
+[
+  {
+    "file": "game:recipes/grid/barrel.json",
+    "op": "replace",
+    "path": "/ingredients",
+    "value": {
+      "S": { "type": "item", "code": "stick" },
+      "P": { "type": "item", "code": "plank-oak" }
+    }
+  },
+  {
+    "file": "game:recipes/grid/bed.json",
+    "op": "replace",
+    "path": "/ingredients",
+    "value": {
+      "L": { "type": "block", "code": "linen-normal-down" },
+      "H": { "type": "block", "code": "hay-normal" },
+      "W": { "type": "item", "code": "plank-oak", "quantity": 2 }
+    }
+  },
+  {
+    "file": "game:recipes/grid/chair.json",
+    "op": "replace",
+    "path": "/ingredients",
+    "value": {
+      "W": { "type": "item", "code": "plank-oak" },
+      "L": { "type": "block", "code": "linen-*-down" }
+    }
+  },
+  {
+    "file": "game:recipes/grid/chest.json",
+    "op": "replace",
+    "path": "/ingredients",
+    "value": {
+      "W": { "type": "item", "code": "plank-oak" }
+    }
+  },
+  {
+    "file": "game:recipes/grid/door.json",
+    "op": "replace",
+    "path": "/ingredients",
+    "value": {
+      "W": { "type": "item", "code": "plank-oak" }
+    }
+  },
+  {
+    "file": "game:recipes/grid/shelf.json",
+    "op": "replace",
+    "path": "/ingredients",
+    "value": {
+      "P": { "type": "item", "code": "plank-oak" }
+    }
+  },
+  {
+    "file": "game:recipes/grid/table.json",
+    "op": "replace",
+    "path": "/ingredients",
+    "value": {
+      "W": { "type": "item", "code": "plank-oak" }
+    }
+  },
+  {
+    "file": "game:recipes/grid/trapdoor.json",
+    "op": "replace",
+    "path": "/ingredients",
+    "value": {
+      "S": { "type": "item", "code": "stick" },
+      "W": { "type": "item", "code": "plank-oak" }
+    }
+  }
+]

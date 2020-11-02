@@ -1,0 +1,100 @@
+{
+  "code": "metalfence",
+  "class": "BlockFence",
+  "variantgroups": [
+    { "code": "metal", "states": ["iron", "copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "steel", "brass", "bismuth", "tin", "molybdochalkos"] },
+    { "code": "part", "states": ["base", "top"] },
+    { "code": "type", "states": ["empty", "n", "e", "s", "w", "ne", "ns", "nw", "es", "ew", "sw", "nes", "new", "nsw", "esw", "nesw", "egw", "gew", "gns", "ngs"] }
+  ],
+  "textures": {
+    "iron-fence-base": { "base": "block/metal/fence/{metal}/iron-fence-base" },
+    "iron-fence-top": { "base": "block/metal/fence/{metal}/iron-fence-top" },
+    "ornaments": { "base": "block/metal/fence/{metal}/ornaments" }
+  },
+  "creativeinventory": { "general": ["metalfence-*-base-ew", "metalfence-*-top-ew"], "decorative": ["metalfence-*-base-ew", "metalfence-*-top-ew"] },
+  "shapebytype": {
+    "*-empty": { "base": "game:block/metal/fence/base/empty" },
+    "*-n": { "base": "game:block/metal/fence/{part}/w", "rotateY": 270 },
+    "*-e": { "base": "game:block/metal/fence/{part}/w", "rotateY": 180 },
+    "*-s": { "base": "game:block/metal/fence/{part}/w", "rotateY": 90 },
+    "*-w": { "base": "game:block/metal/fence/{part}/w", "rotateY": 0 },
+
+    "*-ns": { "base": "game:block/metal/fence/{part}/ew", "rotateY": 90 },
+    "*-ew": { "base": "game:block/metal/fence/{part}/ew", "rotateY": 0 },
+
+    "*-ne": { "base": "game:block/metal/fence/{part}/sw", "rotateY": 180 },
+    "*-nw": { "base": "game:block/metal/fence/{part}/sw", "rotateY": 270 },
+    "*-es": { "base": "game:block/metal/fence/{part}/sw", "rotateY": 90 },
+    "*-sw": { "base": "game:block/metal/fence/{part}/sw", "rotateY": 0 },
+
+    "*-nes": { "base": "game:block/metal/fence/{part}/nsw", "rotateY": 180 },
+    "*-new": { "base": "game:block/metal/fence/{part}/nsw", "rotateY": 270 },
+    "*-nsw": { "base": "game:block/metal/fence/{part}/nsw", "rotateY": 0 },
+    "*-esw": { "base": "game:block/metal/fence/{part}/nsw", "rotateY": 90 },
+
+    "*-nesw": { "base": "game:block/metal/fence/{part}/nesw", "rotateY": 0 },
+
+    "*-egw": { "base": "game:block/metal/fence/{part}/ew", "rotateY": 0 },
+    "*-gew": { "base": "game:block/metal/fence/{part}/ew", "rotateY": 0 },
+    "*-gns": { "base": "game:block/metal/fence/{part}/ew", "rotateY": 270 },
+    "*-ngs": { "base": "game:block/metal/fence/{part}/ew", "rotateY": 270 }
+  },
+  "blockmaterial": "Metal",
+  "sidesolid": {
+    "all": false
+  },
+  "sideopaque": {
+    "all": false
+  },
+  "resistance": 3,
+  "lightAbsorption": 0,
+  "selectionboxbytype": {
+    "*-empty": { "x1": 0.375, "y1": 0, "z1": 0.375, "x2": 0.625, "y2": 1, "z2": 0.625 },
+    "*-n": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 0.625, "y2": 1, "z2": 0.625, "rotateY": 270 },
+    "*-e": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 0.625, "y2": 1, "z2": 0.625, "rotateY": 180 },
+    "*-s": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 0.625, "y2": 1, "z2": 0.625, "rotateY": 90 },
+    "*-w": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 0.625, "y2": 1, "z2": 0.625 },
+
+    "*-ns": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 1, "y2": 1, "z2": 0.625, "rotateY": 90 },
+    "*-gns": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 1, "y2": 1, "z2": 0.625, "rotateY": 90 },
+    "*-ngs": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 1, "y2": 1, "z2": 0.625, "rotateY": 90 },
+    "*-ew": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 1, "y2": 1, "z2": 0.625 },
+    "*-egw": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 1, "y2": 1, "z2": 0.625 },
+    "*-gew": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 1, "y2": 1, "z2": 0.625 },
+
+    "*-sw": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 0.625, "y2": 1, "z2": 1 },
+    "*-ne": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 0.625, "y2": 1, "z2": 1, "rotateY": 180 },
+    "*-nw": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 0.625, "y2": 1, "z2": 1, "rotateY": 270 },
+    "*-es": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 0.625, "y2": 1, "z2": 1, "rotateY": 90 },
+
+    "*-nes": { "x1": 0, "y1": 0, "z1": 0, "x2": 0.625, "z2": 1, "rotateY": 180 },
+    "*-new": { "x1": 0, "y1": 0, "z1": 0, "x2": 0.625, "z2": 1, "rotateY": 270 },
+    "*-nsw": { "x1": 0, "y1": 0, "z1": 0, "x2": 0.625, "z2": 1, "rotateY": 0 },
+    "*-esw": { "x1": 0, "y1": 0, "z1": 0, "x2": 0.625, "z2": 1, "rotateY": 90 }
+  },
+  "collisionboxbytype": {
+    "*-empty": { "x1": 0.375, "y1": 0, "z1": 0.375, "x2": 0.625, "y2": 1.25, "z2": 0.625 },
+    "*-n": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 0.625, "y2": 1.25, "z2": 0.625, "rotateY": 270 },
+    "*-e": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 0.625, "y2": 1.25, "z2": 0.625, "rotateY": 180 },
+    "*-s": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 0.625, "y2": 1.25, "z2": 0.625, "rotateY": 90 },
+    "*-w": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 0.625, "y2": 1.25, "z2": 0.625 },
+
+    "*-ns": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 1, "y2": 1.25, "z2": 0.625, "rotateY": 90 },
+    "*-gns": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 1, "y2": 1.25, "z2": 0.625, "rotateY": 90 },
+    "*-ngs": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 1, "y2": 1.25, "z2": 0.625, "rotateY": 90 },
+    "*-ew": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 1, "y2": 1.25, "z2": 0.625 },
+    "*-egw": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 1, "y2": 1.25, "z2": 0.625 },
+    "*-gew": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 1, "y2": 1.25, "z2": 0.625 },
+
+    "*-sw": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 0.625, "y2": 1.25, "z2": 1 },
+    "*-ne": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 0.625, "y2": 1.25, "z2": 1, "rotateY": 180 },
+    "*-nw": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 0.625, "y2": 1.25, "z2": 1, "rotateY": 270 },
+    "*-es": { "x1": 0, "y1": 0, "z1": 0.375, "x2": 0.625, "y2": 1.25, "z2": 1, "rotateY": 90 },
+
+    "*-nes": { "x1": 0, "y1": 0, "z1": 0, "x2": 0.625, "z2": 1, "rotateY": 180 },
+    "*-new": { "x1": 0, "y1": 0, "z1": 0, "x2": 0.625, "z2": 1, "rotateY": 270 },
+    "*-nsw": { "x1": 0, "y1": 0, "z1": 0, "x2": 0.625, "z2": 1, "rotateY": 0 },
+    "*-esw": { "x1": 0, "y1": 0, "z1": 0, "x2": 0.625, "z2": 1, "rotateY": 90 }
+  },
+  "materialDensity": 600
+}

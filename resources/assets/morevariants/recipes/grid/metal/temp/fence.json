@@ -1,0 +1,20 @@
+[
+  {
+    "ingredientPattern": "I_I,I_I",
+    "ingredients": {
+      "I": { "type": "item", "code": "game:ingot-*", "name": "type", "allowedVariants": ["iron", "copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "steel", "brass", "bismuth", "tin", "molybdochalkos"] }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "block", "code": "metalfence-{type}-base-ew", "quantity": 16 }
+  },
+  {
+    "ingredientPattern": "III,I_I",
+    "ingredients": {
+      "I": { "type": "item", "code": "game:ingot-*", "name": "type", "allowedVariants": ["iron", "copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "steel", "brass", "bismuth", "tin", "molybdochalkos"] }
+    },
+    "width": 3,
+    "height": 2,
+    "output": { "type": "block", "code": "metalfence-{type}-top-ew", "quantity": 16 }
+  }
+]

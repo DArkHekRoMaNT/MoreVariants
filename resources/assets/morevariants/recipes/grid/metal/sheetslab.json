@@ -1,0 +1,10 @@
+{
+  "ingredientPattern": "S,M",
+  "ingredients": {
+    "M": { "type": "block", "code": "metalsheet-*", "name": "type" },
+    "S": { "type": "item", "code": "game:saw-*", "isTool": true }
+  },
+  "width": 1,
+  "height": 2,
+  "output": { "type": "block", "code": "metalsheetslab-{type}-down-free", "quantity": 2 }
+}

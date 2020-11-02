@@ -1,0 +1,170 @@
+{
+  "code": "chest",
+  "class": "BlockGenericTypedContainer",
+  "entityclass": "GenericTypedContainer",
+  "attributes": {
+    "handbook": {
+      "groupBy": ["chest-*"]
+    },
+    "partialAttachable": true,
+    "inventoryClassName": "chest",
+    "defaultType": "birch",
+    "types": ["birch", "maple", "pine", "acacia", "kapok", "aged"],
+    "rotatatableInterval": {
+      "birch": "22.5degnot45deg",
+      "maple": "22.5degnot45deg",
+      "pine": "22.5degnot45deg",
+      "acacia": "22.5degnot45deg",
+      "kapok": "22.5degnot45deg",
+      "aged": "22.5degnot45deg"
+    },
+    "drop": {
+      "birch": true,
+      "maple": true,
+      "pine": true,
+      "acacia": true,
+      "kapok": true,
+      "aged": true
+    },
+    "quantitySlots": {
+      "birch": 16,
+      "maple": 16,
+      "pine": 16,
+      "acacia": 16,
+      "kapok": 16,
+      "aged": 16
+    },
+    "dialogTitleLangCode": {
+      "birch": "chestcontents",
+      "maple": "chestcontents",
+      "pine": "chestcontents",
+      "acacia": "chestcontents",
+      "kapok": "chestcontents",
+      "aged": "chestcontents"
+    },
+    "storageType": {
+      "birch": 189,
+      "maple": 189,
+      "pine": 189,
+      "acacia": 189,
+      "kapok": 189,
+      "aged": 189
+    },
+    "retrieveOnly": {
+      "birch": false,
+      "maple": false,
+      "pine": false,
+      "acacia": false,
+      "kapok": false,
+      "aged": false
+    },
+    "shape": {
+      "birch": "game:block/wood/chest/normal",
+      "maple": "game:block/wood/chest/normal",
+      "pine": "game:block/wood/chest/normal",
+      "acacia": "game:block/wood/chest/normal",
+      "kapok": "game:block/wood/chest/normal",
+      "aged": "game:block/wood/chest/normal"
+    },
+    "variantByGroup": "side",
+    "variantByGroupInventory": null
+  },
+  "behaviors": [{ "name": "Lockable" }, { "name": "Container" }],
+  "variantgroups": [{ "code": "side", "loadFromProperties": "abstract/horizontalorientation" }],
+  "creativeinventory": {},
+  "creativeinventoryStacksByType": {
+    "*-east": [
+      {
+        "tabs": ["general", "decorative"],
+        "stacks": [
+          { "type": "block", "code": "chest-east", "attributes": { "type": "birch" } },
+          { "type": "block", "code": "chest-east", "attributes": { "type": "maple" } },
+          { "type": "block", "code": "chest-east", "attributes": { "type": "pine" } },
+          { "type": "block", "code": "chest-east", "attributes": { "type": "acacia" } },
+          { "type": "block", "code": "chest-east", "attributes": { "type": "kapok" } },
+          { "type": "block", "code": "chest-east", "attributes": { "type": "aged" } }
+        ]
+      }
+    ]
+  },
+  "heldTpIdleAnimation": "holdunderarm",
+  "shapeInventory": { "base": "game:block/wood/chest/normal", "rotateY": 270 },
+  "shapeByType": {
+    "*-north": { "base": "game:block/wood/chest", "rotateY": 0 },
+    "*-east": { "base": "game:block/wood/chest", "rotateY": 270 },
+    "*-west": { "base": "game:block/wood/chest", "rotateY": 90 },
+    "*-south": { "base": "game:block/wood/chest", "rotateY": 180 }
+  },
+  "_comment": "Must declare textures so they get added to the block texture atlas",
+  "textures": {
+    "acacia-sides2": { "base": "block/wood/trunk/acacia/sides" },
+    "acacia-lid": { "base": "block/wood/trunk/acacia/lid" },
+    "acacia-accessories": { "base": "block/wood/trunk/acacia/accessories" },
+
+    "aged-sides2": { "base": "block/wood/trunk/aged/sides" },
+    "aged-lid": { "base": "block/wood/trunk/aged/lid" },
+    "aged-accessories": { "base": "block/wood/trunk/aged/accessories" },
+
+    "birch-sides2": { "base": "block/wood/trunk/birch/sides" },
+    "birch-lid": { "base": "block/wood/trunk/birch/lid" },
+    "birch-accessories": { "base": "block/wood/trunk/birch/accessories" },
+
+    "kapok-sides2": { "base": "block/wood/trunk/kapok/sides" },
+    "kapok-lid": { "base": "block/wood/trunk/kapok/lid" },
+    "kapok-accessories": { "base": "block/wood/trunk/kapok/accessories" },
+
+    "maple-sides2": { "base": "block/wood/trunk/maple/sides" },
+    "maple-lid": { "base": "block/wood/trunk/maple/lid" },
+    "maple-accessories": { "base": "block/wood/trunk/maple/accessories" },
+
+    "pine-sides2": { "base": "block/wood/trunk/pine/sides" },
+    "pine-lid": { "base": "block/wood/trunk/pine/lid" },
+    "pine-accessories": { "base": "block/wood/trunk/pine/accessories" }
+  },
+  "blockmaterial": "Wood",
+  "replaceable": 900,
+  "resistance": 3,
+  "lightAbsorption": 0,
+  "sidesolid": {
+    "all": false
+  },
+  "sideopaque": {
+    "all": false
+  },
+  "collisionbox": {
+    "x1": 0.0625,
+    "y1": 0,
+    "z1": 0.0625,
+    "x2": 0.9375,
+    "y2": 0.8125,
+    "z2": 0.9375
+  },
+  "selectionbox": {
+    "x1": 0.0625,
+    "y1": 0,
+    "z1": 0.0625,
+    "x2": 0.9375,
+    "y2": 0.8125,
+    "z2": 0.9375
+  },
+  "combustibleProps": {
+    "burnTemperature": 600,
+    "burnDuration": 35
+  },
+  "sounds": {
+    "place": "game:block/planks",
+    "hit": "game:block/planks",
+    "break": "game:block/planks",
+    "walk": "game:walk/wood"
+  },
+  "materialDensity": 600,
+  "tpHandTransform": {
+    "translation": { "x": -0.9, "y": -0.5, "z": -0.3 },
+    "rotation": { "x": 0, "y": 90, "z": -102 },
+    "scale": 0.56
+  },
+  "guiTransform": {
+    "origin": { "x": 0.5, "y": 0.4, "z": 0.5 },
+    "scale": 1.16
+  }
+}

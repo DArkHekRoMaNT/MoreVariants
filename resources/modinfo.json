@@ -1,0 +1,12 @@
+{
+  "type": "content",
+  "modid": "morevariants",
+  "name": "More Variants",
+  "description": "Adds different variants for blocks",
+  "authors": ["DArkHekRoMaNT"],
+  "version": "1.1.0",
+  "dependencies": {
+    "game": "1.13.0"
+  },
+  "website": "https://www.vintagestory.at/forums/topic/2644-more-variants"
+}

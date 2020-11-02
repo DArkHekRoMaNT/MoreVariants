@@ -1,0 +1,85 @@
+{
+  "code": "bed",
+  "class": "BlockBed",
+  "entityClassByType": {
+    "*-head-*": "Bed"
+  },
+  "attributes": {
+    "sleepEfficiencyByType": {
+      "bed-*": 0.70833333
+    },
+    "handbook": {
+      "groupBy": ["bed-*"]
+    }
+  },
+  "sidesolid": {
+    "all": false
+  },
+  "sideopaque": {
+    "all": false
+  },
+  "heldTpIdleAnimation": "holdunderarm",
+  "variantgroups": [
+    { "code": "type", "states": ["birch", "maple", "pine", "acacia", "kapok", "aged"] },
+    { "code": "part", "states": ["head", "feet"] },
+    { "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
+  ],
+  "creativeinventory": { "general": ["*-head-north"], "decorative": ["*-head-north"] },
+  "shapeinventory": { "base": "game:block/wood/bed-inventory" },
+  "shapebytype": {
+    "*-head-north": { "base": "game:block/wood/bed-head", "rotateY": 90 },
+    "*-head-east": { "base": "game:block/wood/bed-head", "rotateY": 0 },
+    "*-head-south": { "base": "game:block/wood/bed-head", "rotateY": 270 },
+    "*-head-west": { "base": "game:block/wood/bed-head", "rotateY": 180 },
+    "*-feet-north": { "base": "game:block/wood/bed-feet", "rotateY": 90 },
+    "*-feet-east": { "base": "game:block/wood/bed-feet", "rotateY": 0 },
+    "*-feet-south": { "base": "game:block/wood/bed-feet", "rotateY": 270 },
+    "*-feet-west": { "base": "game:block/wood/bed-feet", "rotateY": 180 }
+  },
+  "textures": {
+    "bottom": { "base": "block/wood/bed/{type}/bottom" },
+    "top1": { "base": "block/wood/bed/top1" },
+    "top2": { "base": "block/wood/bed/top2" },
+    "side2": { "base": "block/wood/bed/{type}/side2" },
+    "side1": { "base": "block/wood/bed/{type}/side1" }
+  },
+  "blockmaterial": "Wood",
+  "replaceable": 550,
+  "resistance": 2,
+  "lightAbsorption": 0,
+  "guitransform": {
+    "scale": 0.75
+  },
+  "combustibleProps": {
+    "burnTemperature": 600,
+    "burnDuration": 40
+  },
+  "fpHandTransform": {
+    "translation": { "x": 0.31, "y": -0.2, "z": 0 },
+    "rotation": { "x": -67, "y": -33, "z": 77 },
+    "origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+    "scale": 1.35
+  },
+  "groundTransform": {
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 2
+  },
+  "tpHandTransform": {
+    "translation": { "x": -0.9, "y": -0.3, "z": -0.9 },
+    "rotation": { "x": -80, "y": -37, "z": 17 },
+    "scale": 0.45
+  },
+  "guiTransform": {
+    "origin": { "x": 0.5, "y": 0.4, "z": 0.5 },
+    "scale": 0.75
+  },
+  "selectionbox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.5, "z2": 1 },
+  "collisionbox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.5, "z2": 1 },
+  "sounds": {
+    "place": "game:block/planks",
+    "hit": "game:block/planks",
+    "break": "game:block/planks",
+    "walk": "game:walk/wood"
+  },
+  "materialDensity": 600
+}

@@ -1,0 +1,52 @@
+{
+  "code": "stick",
+  "shape": { "base": "item/stick" },
+  "creativeinventory": { "general": ["*"], "items": ["*"] },
+  "variantgroups": [{ "code": "wood", "states": ["oak", "birch", "maple", "pine", "acacia", "kapok", "aged"] }],
+  "textures": {
+    "wood": { "base": "game:block/wood/planks/{wood}1" }
+  },
+  "attributes": {
+    "handbook": {
+      "exclude": true
+    }
+  },
+  "maxstacksize": 64,
+  "materialDensity": 450,
+  "attackRange": 2.5,
+  "combustibleProps": {
+    "burnTemperature": 700,
+    "burnDuration": 8,
+
+    "meltingPoint": 300,
+    "meltingDuration": 1,
+    "smeltedRatio": 1,
+    "smeltingType": "convert",
+    "smeltedStack": { "type": "block", "code": "game:torch-up" },
+    "requiresContainer": false
+  },
+  "fpHandTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": 72, "y": 143, "z": -30 },
+    "origin": { "x": 0.5, "y": 0.3, "z": 0.5 },
+    "scale": 1.53
+  },
+  "guiTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": -53, "y": 91, "z": -9 },
+    "origin": { "x": 0.58, "y": 0.19, "z": 0.44 },
+    "scale": 2.11
+  },
+  "groundTransform": {
+    "translation": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": 0, "y": 0, "z": 0 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 2.85
+  },
+  "tpHandTransform": {
+    "translation": { "x": -1.22, "y": 0.06, "z": -0.89 },
+    "rotation": { "x": -6, "y": 30, "z": 18 },
+    "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+    "scale": 0.59
+  }
+}

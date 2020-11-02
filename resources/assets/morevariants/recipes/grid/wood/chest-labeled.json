@@ -1,0 +1,68 @@
+[
+  {
+    "ingredientPattern": "S,C",
+    "ingredients": {
+      "S": { "type": "block", "code": "game:sign-ground-north" },
+      "C": { "type": "block", "code": "chest-east", "attributes": { "type": "birch" } }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "block", "code": "labeledchest-east", "attributes": { "type": "birch-labeled" } }
+  },
+  {
+    "ingredientPattern": "S,C",
+    "ingredients": {
+      "S": { "type": "block", "code": "game:sign-ground-north" },
+      "C": { "type": "block", "code": "chest-east", "attributes": { "type": "maple" } }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "block", "code": "labeledchest-east", "attributes": { "type": "maple-labeled" } }
+  },
+  {
+    "ingredientPattern": "S,C",
+    "ingredients": {
+      "S": { "type": "block", "code": "game:sign-ground-north" },
+      "C": { "type": "block", "code": "chest-east", "attributes": { "type": "pine" } }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "block", "code": "labeledchest-east", "attributes": { "type": "pine-labeled" } }
+  },
+  {
+    "ingredientPattern": "S,C",
+    "ingredients": {
+      "S": { "type": "block", "code": "game:sign-ground-north" },
+      "C": { "type": "block", "code": "chest-east", "attributes": { "type": "acacia" } }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "block", "code": "labeledchest-east", "attributes": { "type": "acacia-labeled" } }
+  },
+  {
+    "ingredientPattern": "S,C",
+    "ingredients": {
+      "S": { "type": "block", "code": "game:sign-ground-north" },
+      "C": { "type": "block", "code": "chest-east", "attributes": { "type": "kapok" } }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "block", "code": "labeledchest-east", "attributes": { "type": "kapok-labeled" } }
+  },
+  {
+    "ingredientPattern": "S,C",
+    "ingredients": {
+      "S": { "type": "block", "code": "game:sign-ground-north" },
+      "C": { "type": "block", "code": "chest-east", "attributes": { "type": "aged" } }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "block", "code": "labeledchest-east", "attributes": { "type": "aged-labeled" } }
+  }
+]

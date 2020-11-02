@@ -1,0 +1,58 @@
+{
+  "code": "chair",
+  "attributes": {
+    "handbook": {
+      "groupBy": ["chair-*"]
+    }
+  },
+  "variantgroups": [{ "code": "type", "states": ["birch", "maple", "pine", "acacia", "kapok"] }],
+  "shape": { "base": "game:block/wood/chair-normal" },
+  "heldTpIdleAnimation": "holdunderarm",
+  "creativeinventory": { "general": ["*"], "decorative": ["*"] },
+  "blockmaterial": "Wood",
+  "replaceable": 900,
+  "resistance": 1.5,
+  "lightAbsorption": 1,
+  "sidesolid": {
+    "all": false
+  },
+  "sideopaque": {
+    "all": false
+  },
+  "combustibleProps": {
+    "burnTemperature": 600,
+    "burnDuration": 30
+  },
+  "sounds": {
+    "place": "game:block/planks",
+    "hit": "game:block/planks",
+    "break": "game:block/planks",
+    "walk": "game:walk/wood"
+  },
+  "textures": {
+    "0": { "base": "block/wood/chair/{type}/sides" },
+    "1": { "base": "block/wood/chair/{type}/top" },
+    "2": { "base": "block/wood/chair/{type}/bottom" },
+    "3": { "base": "block/wood/chair/{type}/legs" }
+  },
+  "materialDensity": 400,
+  "selectionbox": { "x1": 0.0625, "y1": 0, "z1": 0.0625, "x2": 0.9375, "y2": 0.5, "z2": 0.9375 },
+  "collisionbox": { "x1": 0.0625, "y1": 0, "z1": 0.0625, "x2": 0.9375, "y2": 0.5, "z2": 0.9375 },
+  "guiTransform": {
+    "translation": { "x": 0, "y": 2, "z": 0 },
+    "origin": { "x": 0.5, "y": 0.25, "z": 0.5 }
+  },
+  "groundTransform": {
+    "scale": 1.7
+  },
+  "tpHandTransform": {
+    "translation": { "x": -0.8, "y": -0.42, "z": -0.39 },
+    "rotation": { "x": -8, "y": 75, "z": -101 },
+    "scale": 0.62
+  },
+  "fpHandTransform": {
+    "translation": { "x": -0.3, "y": -0.25, "z": 0.7 },
+    "rotation": { "x": 30, "y": -42, "z": 91 },
+    "scale": 1.45
+  }
+}

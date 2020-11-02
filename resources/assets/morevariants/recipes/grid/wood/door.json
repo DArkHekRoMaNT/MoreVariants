@@ -1,0 +1,9 @@
+{
+  "ingredientPattern": "WW,WW,WW",
+  "ingredients": {
+    "W": { "type": "item", "code": "game:plank-*", "allowedVariants": ["birch", "maple", "pine", "acacia", "kapok", "aged"], "name": "type" }
+  },
+  "width": 2,
+  "height": 3,
+  "output": { "type": "block", "code": "woodendoor-{type}-north-down-closed-left" }
+}

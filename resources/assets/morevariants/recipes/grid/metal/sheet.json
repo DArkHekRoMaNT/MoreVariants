@@ -1,0 +1,10 @@
+{
+  "ingredientPattern": "M,C",
+  "ingredients": {
+    "C": { "type": "block", "code": "game:cobblestone-*" },
+    "M": { "type": "item", "code": "game:metalplate-*", "name": "type" }
+  },
+  "width": 1,
+  "height": 2,
+  "output": { "type": "block", "code": "metalsheet-{type}", "quantity": 1 }
+}

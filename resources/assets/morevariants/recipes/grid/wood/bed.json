@@ -1,0 +1,11 @@
+{
+  "ingredientPattern": "L__,HHH,WWW",
+  "ingredients": {
+    "L": { "type": "block", "code": "game:linen-normal-down" },
+    "H": { "type": "block", "code": "game:hay-normal" },
+    "W": { "type": "item", "code": "game:plank-*", "allowedVariants": ["birch", "maple", "pine", "acacia", "kapok", "aged"], "name": "type", "quantity": 2 }
+  },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "bed-{type}-head-north" }
+}

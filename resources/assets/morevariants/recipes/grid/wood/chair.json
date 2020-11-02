@@ -1,0 +1,10 @@
+{
+  "ingredientPattern": "WLW,W_W",
+  "ingredients": {
+    "W": { "type": "item", "code": "game:plank-*", "allowedVariants": ["birch", "maple", "pine", "acacia", "kapok"], "name": "type" },
+    "L": { "type": "block", "code": "game:linen-*-down" }
+  },
+  "width": 3,
+  "height": 2,
+  "output": { "type": "block", "code": "chair-{type}" }
+}
