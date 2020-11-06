@@ -60,12 +60,20 @@
     }
   },
   {
-    "file": "game:recipes/grid/trapdoor.json",
+    "file": "game:recipes/grid/forge.json",
     "op": "replace",
     "path": "/ingredients",
     "value": {
       "S": { "type": "item", "code": "stick" },
       "W": { "type": "item", "code": "plank-oak" }
+    }
+  },
+  {
+    "file": "game:recipes/grid/trapdoor.json",
+    "op": "replace",
+    "path": "/ingredients",
+    "value": {
+      "C": { "type": "block", "code": "cobblestone-granite" }
     }
   }
 ]
