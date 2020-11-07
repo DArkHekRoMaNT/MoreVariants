@@ -9,7 +9,7 @@
     }
   },
   "variantgroups": [{ "loadFromProperties": "game:block/rock" }],
-  "skipVariants": ["forge-granite"],
+  "skipVariants": ["morevariants:forge-granite"],
   "blockmaterial": "Stone",
   "renderpass": "OpaqueNoCull",
   "creativeinventory": { "general": ["*"], "decorative": ["*"] },
