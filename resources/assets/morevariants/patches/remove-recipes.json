@@ -60,7 +60,7 @@
     }
   },
   {
-    "file": "game:recipes/grid/forge.json",
+    "file": "game:recipes/grid/trapdoor.json",
     "op": "replace",
     "path": "/ingredients",
     "value": {
