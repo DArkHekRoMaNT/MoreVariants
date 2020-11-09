@@ -1,7 +1,7 @@
 {
   "ingredientPattern": "C_C,C_C,CCC",
   "ingredients": {
-    "C": { "type": "block", "code": "game:cobblestone-*", "name": "stone" }
+    "C": { "type": "block", "code": "game:cobblestone-*", "skipVariants": ["granite"], "name": "stone" }
   },
   "width": 3,
   "height": 3,
