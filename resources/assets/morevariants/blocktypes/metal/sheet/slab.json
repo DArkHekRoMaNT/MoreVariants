@@ -12,7 +12,7 @@
     }
   ],
   "variantgroups": [{ "loadFromProperties": "game:block/metal" }, { "code": "rot", "states": ["north", "east", "south", "west", "up", "down"] }, { "code": "cover", "states": ["free", "snow"] }],
-  "skipVariants": ["*-up-snow"],
+  "skipVariants": ["morevariants:*-up-snow"],
   "attributes": {
     "canChisel": true,
     "chiselShapeFromCollisionBox": true,

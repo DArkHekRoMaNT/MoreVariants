@@ -90,10 +90,10 @@
   "heldTpIdleAnimation": "holdunderarm",
   "shapeInventory": { "base": "game:block/wood/chest/normal", "rotateY": 270 },
   "shapeByType": {
-    "*-north": { "base": "game:block/wood/chest", "rotateY": 0 },
-    "*-east": { "base": "game:block/wood/chest", "rotateY": 270 },
-    "*-west": { "base": "game:block/wood/chest", "rotateY": 90 },
-    "*-south": { "base": "game:block/wood/chest", "rotateY": 180 }
+    "*-north": { "base": "game:block/wood/chest/normal", "rotateY": 0 },
+    "*-east": { "base": "game:block/wood/chest/normal", "rotateY": 270 },
+    "*-west": { "base": "game:block/wood/chest/normal", "rotateY": 90 },
+    "*-south": { "base": "game:block/wood/chest/normal", "rotateY": 180 }
   },
   "_comment": "Must declare textures so they get added to the block texture atlas",
   "textures": {
