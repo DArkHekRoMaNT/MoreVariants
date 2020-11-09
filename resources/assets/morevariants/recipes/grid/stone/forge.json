@@ -1,7 +1,7 @@
 {
   "ingredientPattern": "C_C,C_C,CCC",
   "ingredients": {
-    "C": { "type": "block", "code": "game:cobblestone-*", "skipVariants": ["granite"], "name": "stone" }
+    "C": { "type": "block", "code": "game:cobblestone-*", "allowedVariants": ["andesite", "basalt", "bauxite", "chalk", "chert", "claystone", "conglomerate", "limestone", "peridotite", "phyllite", "sandstone", "shale", "slate"], "name": "stone" }
   },
   "width": 3,
   "height": 3,
