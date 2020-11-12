@@ -24,7 +24,8 @@
         "*-rhodium": true,
         "*-stainlesssteel": true,
         "*-titanium": true,
-        "*-uranium": true
+        "*-uranium": true,
+        "*-cursed": true
       }
     },
     "partialAttachableByType": {
@@ -40,10 +41,18 @@
     "*-snow": { "base": "game:block/basic/slab/snow-slab-{rot}" },
     "*": { "base": "game:block/basic/slab/slab-{rot}" }
   },
-  "textures": {
-    "all": {
-      "base": "game:block/metal/sheet/{metal}1",
-      "alternates": [{ "base": "game:block/metal/sheet/{metal}2" }, { "base": "game:block/metal/sheet/{metal}3" }, { "base": "game:block/metal/sheet/{metal}4" }, { "base": "game:block/metal/sheet/{metal}5" }]
+  "texturesByType": {
+    "*-cursed-*": {
+      "all": {
+        "base": "block/metal/sheet/{metal}1",
+        "alternates": [{ "base": "block/metal/sheet/{metal}2" }, { "base": "block/metal/sheet/{metal}3" }, { "base": "block/metal/sheet/{metal}4" }, { "base": "block/metal/sheet/{metal}5" }]
+      }
+    },
+    "*": {
+      "all": {
+        "base": "game:block/metal/sheet/{metal}1",
+        "alternates": [{ "base": "game:block/metal/sheet/{metal}2" }, { "base": "game:block/metal/sheet/{metal}3" }, { "base": "game:block/metal/sheet/{metal}4" }, { "base": "game:block/metal/sheet/{metal}5" }]
+      }
     }
   },
   "sideSolidOpaqueAoByType": {
