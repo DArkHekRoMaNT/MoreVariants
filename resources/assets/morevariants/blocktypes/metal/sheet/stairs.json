@@ -1,7 +1,7 @@
 {
   "code": "metalsheetstairs",
   "class": "BlockStairs",
-  "variantgroups": [{ "loadFromProperties": "game:block/metal" }, { "loadFromProperties": "game:abstract/verticalorientation" }, { "loadFromProperties": "game:abstract/horizontalorientation" }, { "code": "cover", "states": ["free", "snow"] }],
+  "variantgroups": [{ "code": "metal", "states": ["cursed"], "loadFromProperties": "game:block/metal" }, { "loadFromProperties": "game:abstract/verticalorientation" }, { "loadFromProperties": "game:abstract/horizontalorientation" }, { "code": "cover", "states": ["free", "snow"] }],
   "skipVariants": ["*-down-north-snow", "*-down-east-snow", "*-down-south-snow", "*-down-west-snow"],
   "attributes": {
     "canChisel": true,

@@ -11,7 +11,11 @@
       }
     }
   ],
-  "variantgroups": [{ "loadFromProperties": "game:block/metal" }, { "code": "rot", "states": ["north", "east", "south", "west", "up", "down"] }, { "code": "cover", "states": ["free", "snow"] }],
+  "variantgroups": [
+    { "code": "metal", "states": ["cursed"], "loadFromProperties": "game:block/metal" },
+    { "code": "rot", "states": ["north", "east", "south", "west", "up", "down"] },
+    { "code": "cover", "states": ["free", "snow"] }
+  ],
   "skipVariants": ["morevariants:*-up-snow"],
   "attributes": {
     "canChisel": true,
