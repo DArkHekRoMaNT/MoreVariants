@@ -86,6 +86,7 @@
     "variantByGroupInventory": null
   },
   "behaviors": [{ "name": "Lockable" }, { "name": "Container" }],
+  "entityBehaviors": [{ "name": "Animatable" }],
   "variantgroups": [
     { "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
   ],

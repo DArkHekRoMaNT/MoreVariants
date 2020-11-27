@@ -92,6 +92,7 @@
       "properties": { "dropBlockFace": "east" }
     }
   ],
+  "entityBehaviors": [{ "name": "Animatable" }],
   "variantgroups": [
     { "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
   ],
