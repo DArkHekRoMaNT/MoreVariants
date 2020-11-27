@@ -13,7 +13,7 @@
         "--openWorld",
         "modding test world",
         "--dataPath",
-        "${env:VINTAGE_STORY_DATA}/${config:vsversion}",
+        "${env:VINTAGE_STORY_DATA}",
         "--addModPath",
         "${workspaceFolder}/mods"
       ],
@@ -32,7 +32,7 @@
         "--openWorld",
         "modding test world",
         "--dataPath",
-        "${env:VINTAGE_STORY_DATA}/${config:vsversion}",
+        "${env:VINTAGE_STORY_DATA}",
         "--addModPath",
         "${workspaceFolder}/mods"
       ],

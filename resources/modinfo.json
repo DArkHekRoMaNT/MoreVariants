@@ -4,9 +4,9 @@
   "name": "More Variants",
   "description": "Adds different variants for blocks",
   "authors": ["DArkHekRoMaNT"],
-  "version": "1.1.7",
+  "version": "1.2.0",
   "dependencies": {
-    "game": "1.13.0"
+    "game": "1.14.0-rc.4"
   },
   "website": "https://www.vintagestory.at/forums/topic/2644-more-variants"
 }

@@ -4,7 +4,7 @@
     {
       "label": "pack",
       "type": "shell",
-      "command": "mkdir mods; rm -r mods/${workspaceFolderBasename}; mkdir mods/${workspaceFolderBasename}; cp -r resources/* mods/${workspaceFolderBasename}"
+      "command": "mkdir -p mods; rm -r mods/${workspaceFolderBasename}; mkdir mods/${workspaceFolderBasename}; cp -r resources/* mods/${workspaceFolderBasename}"
     },
     {
       "label": "pack-release",

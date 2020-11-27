@@ -66,23 +66,65 @@
       "kapok": "game:block/wood/chest/normal",
       "aged": "game:block/wood/chest/normal"
     },
+    "typedOpenSound": {
+      "birch": "game:sounds/block/largechestopen",
+      "maple": "game:sounds/block/largechestopen",
+      "pine": "game:sounds/block/largechestopen",
+      "acacia": "game:sounds/block/largechestopen",
+      "kapok": "game:sounds/block/largechestopen",
+      "aged": "game:sounds/block/largechestopen"
+    },
+    "typedCloseSound": {
+      "birch": "game:sounds/block/largechestclose",
+      "maple": "game:sounds/block/largechestclose",
+      "pine": "game:sounds/block/largechestclose",
+      "acacia": "game:sounds/block/largechestclose",
+      "kapok": "game:sounds/block/largechestclose",
+      "aged": "game:sounds/block/largechestclose"
+    },
     "variantByGroup": "side",
     "variantByGroupInventory": null
   },
   "behaviors": [{ "name": "Lockable" }, { "name": "Container" }],
-  "variantgroups": [{ "code": "side", "loadFromProperties": "abstract/horizontalorientation" }],
+  "variantgroups": [
+    { "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
+  ],
   "creativeinventory": {},
   "creativeinventoryStacksByType": {
     "*-east": [
       {
         "tabs": ["general", "decorative"],
         "stacks": [
-          { "type": "block", "code": "chest-east", "attributes": { "type": "birch" } },
-          { "type": "block", "code": "chest-east", "attributes": { "type": "maple" } },
-          { "type": "block", "code": "chest-east", "attributes": { "type": "pine" } },
-          { "type": "block", "code": "chest-east", "attributes": { "type": "acacia" } },
-          { "type": "block", "code": "chest-east", "attributes": { "type": "kapok" } },
-          { "type": "block", "code": "chest-east", "attributes": { "type": "aged" } }
+          {
+            "type": "block",
+            "code": "chest-east",
+            "attributes": { "type": "birch" }
+          },
+          {
+            "type": "block",
+            "code": "chest-east",
+            "attributes": { "type": "maple" }
+          },
+          {
+            "type": "block",
+            "code": "chest-east",
+            "attributes": { "type": "pine" }
+          },
+          {
+            "type": "block",
+            "code": "chest-east",
+            "attributes": { "type": "acacia" }
+          },
+          {
+            "type": "block",
+            "code": "chest-east",
+            "attributes": { "type": "kapok" }
+          },
+          {
+            "type": "block",
+            "code": "chest-east",
+            "attributes": { "type": "aged" }
+          }
         ]
       }
     ]
@@ -125,12 +167,9 @@
   "replaceable": 900,
   "resistance": 3,
   "lightAbsorption": 0,
-  "sidesolid": {
-    "all": false
-  },
-  "sideopaque": {
-    "all": false
-  },
+  "sideAo": { "all": false },
+  "sidesolid": { "all": false },
+  "sideopaque": { "all": false },
   "collisionbox": {
     "x1": 0.0625,
     "y1": 0,

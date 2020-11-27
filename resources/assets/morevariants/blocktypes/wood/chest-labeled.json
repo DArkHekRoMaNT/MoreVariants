@@ -9,7 +9,14 @@
     "partialAttachable": true,
     "inventoryClassName": "chest",
     "defaultType": "birch-labeled",
-    "types": ["birch-labeled", "maple-labeled", "pine-labeled", "acacia-labeled", "kapok-labeled", "aged-labeled"],
+    "types": [
+      "birch-labeled",
+      "maple-labeled",
+      "pine-labeled",
+      "acacia-labeled",
+      "kapok-labeled",
+      "aged-labeled"
+    ],
     "drop": {
       "birch-labeled": true,
       "maple-labeled": true,
@@ -58,23 +65,72 @@
       "kapok-labeled": "game:block/wood/chest/normal-labeled",
       "aged-labeled": "game:block/wood/chest/normal-labeled"
     },
+    "typedOpenSound": {
+      "birch-labeled": "game:sounds/block/largechestopen",
+      "maple-labeled": "game:sounds/block/largechestopen",
+      "pine-labeled": "game:sounds/block/largechestopen",
+      "acacia-labeled": "game:sounds/block/largechestopen",
+      "kapok-labeled": "game:sounds/block/largechestopen",
+      "aged-labeled": "game:sounds/block/largechestopen"
+    },
+    "typedCloseSound": {
+      "birch-labeled": "game:sounds/block/largechestclose",
+      "maple-labeled": "game:sounds/block/largechestclose",
+      "pine-labeled": "game:sounds/block/largechestclose",
+      "acacia-labeled": "game:sounds/block/largechestclose",
+      "kapok-labeled": "game:sounds/block/largechestclose",
+      "aged-labeled": "game:sounds/block/largechestclose"
+    },
     "variantByGroup": "side",
     "variantByGroupInventory": null
   },
-  "behaviors": [{ "name": "Lockable" }, { "name": "Container" }, { "name": "HorizontalOrientable", "properties": { "dropBlockFace": "east" } }],
-  "variantgroups": [{ "code": "side", "loadFromProperties": "abstract/horizontalorientation" }],
+  "behaviors": [
+    { "name": "Lockable" },
+    { "name": "Container" },
+    {
+      "name": "HorizontalOrientable",
+      "properties": { "dropBlockFace": "east" }
+    }
+  ],
+  "variantgroups": [
+    { "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
+  ],
   "creativeinventory": {},
   "creativeinventoryStacksByType": {
     "*-east": [
       {
         "tabs": ["general", "decorative"],
         "stacks": [
-          { "type": "block", "code": "labeledchest-east", "attributes": { "type": "birch-labeled" } },
-          { "type": "block", "code": "labeledchest-east", "attributes": { "type": "maple-labeled" } },
-          { "type": "block", "code": "labeledchest-east", "attributes": { "type": "pine-labeled" } },
-          { "type": "block", "code": "labeledchest-east", "attributes": { "type": "acacia-labeled" } },
-          { "type": "block", "code": "labeledchest-east", "attributes": { "type": "kapok-labeled" } },
-          { "type": "block", "code": "labeledchest-east", "attributes": { "type": "aged-labeled" } }
+          {
+            "type": "block",
+            "code": "labeledchest-east",
+            "attributes": { "type": "birch-labeled" }
+          },
+          {
+            "type": "block",
+            "code": "labeledchest-east",
+            "attributes": { "type": "maple-labeled" }
+          },
+          {
+            "type": "block",
+            "code": "labeledchest-east",
+            "attributes": { "type": "pine-labeled" }
+          },
+          {
+            "type": "block",
+            "code": "labeledchest-east",
+            "attributes": { "type": "acacia-labeled" }
+          },
+          {
+            "type": "block",
+            "code": "labeledchest-east",
+            "attributes": { "type": "kapok-labeled" }
+          },
+          {
+            "type": "block",
+            "code": "labeledchest-east",
+            "attributes": { "type": "aged-labeled" }
+          }
         ]
       }
     ]
@@ -91,7 +147,9 @@
   "textures": {
     "acacia-labeled-sides2": { "base": "block/wood/trunk/acacia/sides" },
     "acacia-labeled-lid": { "base": "block/wood/trunk/acacia/lid" },
-    "acacia-labeled-accessories": { "base": "block/wood/trunk/acacia/accessories" },
+    "acacia-labeled-accessories": {
+      "base": "block/wood/trunk/acacia/accessories"
+    },
     "acacia-labeled-label": { "base": "game:block/wood/chest/label" },
 
     "aged-labeled-sides2": { "base": "block/wood/trunk/aged/sides" },
@@ -101,17 +159,23 @@
 
     "birch-labeled-sides2": { "base": "block/wood/trunk/birch/sides" },
     "birch-labeled-lid": { "base": "block/wood/trunk/birch/lid" },
-    "birch-labeled-accessories": { "base": "block/wood/trunk/birch/accessories" },
+    "birch-labeled-accessories": {
+      "base": "block/wood/trunk/birch/accessories"
+    },
     "birch-labeled-label": { "base": "game:block/wood/chest/label" },
 
     "kapok-labeled-sides2": { "base": "block/wood/trunk/kapok/sides" },
     "kapok-labeled-lid": { "base": "block/wood/trunk/kapok/lid" },
-    "kapok-labeled-accessories": { "base": "block/wood/trunk/kapok/accessories" },
+    "kapok-labeled-accessories": {
+      "base": "block/wood/trunk/kapok/accessories"
+    },
     "kapok-labeled-label": { "base": "game:block/wood/chest/label" },
 
     "maple-labeled-sides2": { "base": "block/wood/trunk/maple/sides" },
     "maple-labeled-lid": { "base": "block/wood/trunk/maple/lid" },
-    "maple-labeled-accessories": { "base": "block/wood/trunk/maple/accessories" },
+    "maple-labeled-accessories": {
+      "base": "block/wood/trunk/maple/accessories"
+    },
     "maple-labeled-label": { "base": "game:block/wood/chest/label" },
 
     "pine-labeled-sides2": { "base": "block/wood/trunk/pine/sides" },
@@ -123,12 +187,9 @@
   "replaceable": 900,
   "resistance": 3,
   "lightAbsorption": 0,
-  "sidesolid": {
-    "all": false
-  },
-  "sideopaque": {
-    "all": false
-  },
+  "sideAo": { "all": false },
+  "sidesolid": { "all": false },
+  "sideopaque": { "all": false },
   "collisionbox": {
     "x1": 0.0625,
     "y1": 0,
