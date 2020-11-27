@@ -210,13 +210,13 @@
   "block-chandelier-molybdochalkos-*": "Люстра из молибдохалкоса",
   "block-chandelier-iron-*": "Люстра из железа",
 
-  "item-morevariantsitem-stick-oak": "Палка из Oak",
-  "item-morevariantsitem-stick-birch": "Палка из Birch",
-  "item-morevariantsitem-stick-maple": "Палка из Maple",
-  "item-morevariantsitem-stick-pine": "Палка из Pine",
-  "item-morevariantsitem-stick-acacia": "Палка из Acacia",
-  "item-morevariantsitem-stick-kapok": "Палка из Kapok",
-  "item-morevariantsitem-stick-aged": "Палка из Aged",
+  "item-stick-oak": "Палка из Oak",
+  "item-stick-birch": "Палка из Birch",
+  "item-stick-maple": "Палка из Maple",
+  "item-stick-pine": "Палка из Pine",
+  "item-stick-acacia": "Палка из Acacia",
+  "item-stick-kapok": "Палка из Kapok",
+  "item-stick-aged": "Палка из Aged",
 
   "block--chest-east": "Сундук из MoreVariants",
   "block--labeledchest-east": "Cундук c этикеткой из MoreVariants"
