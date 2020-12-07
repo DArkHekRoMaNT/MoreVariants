@@ -4,12 +4,31 @@
     {
       "label": "pack",
       "type": "shell",
-      "command": "mkdir -p mods; rm -r mods/${workspaceFolderBasename}; mkdir mods/${workspaceFolderBasename}; cp -r resources/* mods/${workspaceFolderBasename}"
+      "command": [
+        "mkdir -p mods;",
+        "rm -r mods/${workspaceFolderBasename};",
+        "mkdir mods/${workspaceFolderBasename};",
+        "cp -r resources/* mods/${workspaceFolderBasename}"
+      ],
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
     },
     {
       "label": "pack-release",
+      "dependsOn": "pack",
       "type": "shell",
-      "command": "git archive -o releases/${workspaceFolderBasename}_v${config:vsversion}_last.zip \"HEAD:resources\""
+      "command": [
+        "mkdir -p releases;",
+        "git archive",
+        "-o releases/${workspaceFolderBasename}_v${config:vsversion}_last.zip",
+        "\"HEAD:resources\""
+      ],
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
     }
   ]
 }
