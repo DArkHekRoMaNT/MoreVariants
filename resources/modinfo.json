@@ -1,10 +1,10 @@
 {
   "type": "content",
   "modid": "morevariants",
-  "name": "More Variants",
+  "name": "More Variants (with outdated chests)",
   "description": "Adds different variants for blocks",
   "authors": ["DArkHekRoMaNT"],
-  "version": "1.3.0",
+  "version": "1.3.0-outdated",
   "dependencies": {
     "game": "1.14.0"
   },

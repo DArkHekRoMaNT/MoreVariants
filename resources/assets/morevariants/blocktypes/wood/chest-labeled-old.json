@@ -1,0 +1,234 @@
+{
+  "code": "labeledchest",
+  "class": "BlockLabeledChest",
+  "entityclass": "LabeledChest",
+  "attributes": {
+    "handbook": {
+      "groupBy": ["labeledchest-*"]
+    },
+    "partialAttachable": true,
+    "inventoryClassName": "chest",
+    "defaultType": "birch-labeled",
+    "types": [
+      "birch-labeled",
+      "maple-labeled",
+      "pine-labeled",
+      "acacia-labeled",
+      "kapok-labeled",
+      "aged-labeled"
+    ],
+    "drop": {
+      "birch-labeled": true,
+      "maple-labeled": true,
+      "pine-labeled": true,
+      "acacia-labeled": true,
+      "kapok-labeled": true,
+      "aged-labeled": true
+    },
+    "quantitySlots": {
+      "birch-labeled": 16,
+      "maple-labeled": 16,
+      "pine-labeled": 16,
+      "acacia-labeled": 16,
+      "kapok-labeled": 16,
+      "aged-labeled": 16
+    },
+    "dialogTitleLangCode": {
+      "birch-labeled": "chestcontents",
+      "maple-labeled": "chestcontents",
+      "pine-labeled": "chestcontents",
+      "acacia-labeled": "chestcontents",
+      "kapok-labeled": "chestcontents",
+      "aged-labeled": "chestcontents"
+    },
+    "storageType": {
+      "birch-labeled": 189,
+      "maple-labeled": 189,
+      "pine-labeled": 189,
+      "acacia-labeled": 189,
+      "kapok-labeled": 189,
+      "aged-labeled": 189
+    },
+    "retrieveOnly": {
+      "birch-labeled": false,
+      "maple-labeled": false,
+      "pine-labeled": false,
+      "acacia-labeled": false,
+      "kapok-labeled": false,
+      "aged-labeled": false
+    },
+    "shape": {
+      "birch-labeled": "game:block/wood/chest/normal-labeled",
+      "maple-labeled": "game:block/wood/chest/normal-labeled",
+      "pine-labeled": "game:block/wood/chest/normal-labeled",
+      "acacia-labeled": "game:block/wood/chest/normal-labeled",
+      "kapok-labeled": "game:block/wood/chest/normal-labeled",
+      "aged-labeled": "game:block/wood/chest/normal-labeled"
+    },
+    "typedOpenSound": {
+      "birch-labeled": "game:sounds/block/largechestopen",
+      "maple-labeled": "game:sounds/block/largechestopen",
+      "pine-labeled": "game:sounds/block/largechestopen",
+      "acacia-labeled": "game:sounds/block/largechestopen",
+      "kapok-labeled": "game:sounds/block/largechestopen",
+      "aged-labeled": "game:sounds/block/largechestopen"
+    },
+    "typedCloseSound": {
+      "birch-labeled": "game:sounds/block/largechestclose",
+      "maple-labeled": "game:sounds/block/largechestclose",
+      "pine-labeled": "game:sounds/block/largechestclose",
+      "acacia-labeled": "game:sounds/block/largechestclose",
+      "kapok-labeled": "game:sounds/block/largechestclose",
+      "aged-labeled": "game:sounds/block/largechestclose"
+    },
+    "variantByGroup": "side",
+    "variantByGroupInventory": null
+  },
+  "behaviors": [
+    { "name": "Lockable" },
+    { "name": "Container" },
+    {
+      "name": "HorizontalOrientable",
+      "properties": { "dropBlockFace": "east" }
+    }
+  ],
+  "entityBehaviors": [{ "name": "Animatable" }],
+  "variantgroups": [
+    { "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
+  ],
+  "creativeinventory": {},
+  "creativeinventoryStacksByType": {
+    "*-east": [
+      {
+        "tabs": ["general", "decorative"],
+        "stacks": [
+          {
+            "type": "block",
+            "code": "labeledchest-east",
+            "attributes": { "type": "birch-labeled" }
+          },
+          {
+            "type": "block",
+            "code": "labeledchest-east",
+            "attributes": { "type": "maple-labeled" }
+          },
+          {
+            "type": "block",
+            "code": "labeledchest-east",
+            "attributes": { "type": "pine-labeled" }
+          },
+          {
+            "type": "block",
+            "code": "labeledchest-east",
+            "attributes": { "type": "acacia-labeled" }
+          },
+          {
+            "type": "block",
+            "code": "labeledchest-east",
+            "attributes": { "type": "kapok-labeled" }
+          },
+          {
+            "type": "block",
+            "code": "labeledchest-east",
+            "attributes": { "type": "aged-labeled" }
+          }
+        ]
+      }
+    ]
+  },
+  "heldTpIdleAnimation": "holdunderarm",
+  "shapeInventory": { "base": "game:block/wood/chest/normal", "rotateY": 270 },
+  "shapeByType": {
+    "*-north": { "base": "game:block/wood/chest/normal", "rotateY": 0 },
+    "*-east": { "base": "game:block/wood/chest/normal", "rotateY": 270 },
+    "*-west": { "base": "game:block/wood/chest/normal", "rotateY": 90 },
+    "*-south": { "base": "game:block/wood/chest/normal", "rotateY": 180 }
+  },
+  "_comment": "Must declare textures so they get added to the block texture atlas",
+  "textures": {
+    "birch-labeled-sides2": { "base": "block/wood/trunk/outdated/sides" },
+    "birch-labeled-lid": { "base": "block/wood/trunk/outdated/lid" },
+    "birch-labeled-accessories": {
+      "base": "block/wood/trunk/outdated/accessories"
+    },
+    "birch-labeled-label": { "base": "game:block/wood/chest/label" },
+
+    "maple-labeled-sides2": { "base": "block/wood/trunk/outdated/sides" },
+    "maple-labeled-lid": { "base": "block/wood/trunk/outdated/lid" },
+    "maple-labeled-accessories": {
+      "base": "block/wood/trunk/outdated/accessories"
+    },
+    "maple-labeled-label": { "base": "game:block/wood/chest/label" },
+
+    "pine-labeled-sides2": { "base": "block/wood/trunk/outdated/sides" },
+    "pine-labeled-lid": { "base": "block/wood/trunk/outdated/lid" },
+    "pine-labeled-accessories": {
+      "base": "block/wood/trunk/outdated/accessories"
+    },
+    "pine-labeled-label": { "base": "game:block/wood/chest/label" },
+
+    "acacia-labeled-sides2": { "base": "block/wood/trunk/outdated/sides" },
+    "acacia-labeled-lid": { "base": "block/wood/trunk/outdated/lid" },
+    "acacia-labeled-accessories": {
+      "base": "block/wood/trunk/outdated/accessories"
+    },
+    "acacia-labeled-label": { "base": "game:block/wood/chest/label" },
+
+    "kapok-labeled-sides2": { "base": "block/wood/trunk/outdated/sides" },
+    "kapok-labeled-lid": { "base": "block/wood/trunk/outdated/lid" },
+    "kapok-labeled-accessories": {
+      "base": "block/wood/trunk/outdated/accessories"
+    },
+    "kapok-labeled-label": { "base": "game:block/wood/chest/label" },
+
+    "aged-labeled-sides2": { "base": "block/wood/trunk/outdated/sides" },
+    "aged-labeled-lid": { "base": "block/wood/trunk/outdated/lid" },
+    "aged-labeled-accessories": {
+      "base": "block/wood/trunk/outdated/accessories"
+    },
+    "aged-labeled-label": { "base": "game:block/wood/chest/label" }
+  },
+  "blockmaterial": "Wood",
+  "replaceable": 900,
+  "resistance": 3,
+  "lightAbsorption": 0,
+  "sideAo": { "all": false },
+  "sidesolid": { "all": false },
+  "sideopaque": { "all": false },
+  "collisionbox": {
+    "x1": 0.0625,
+    "y1": 0,
+    "z1": 0.0625,
+    "x2": 0.9375,
+    "y2": 0.8125,
+    "z2": 0.9375
+  },
+  "selectionbox": {
+    "x1": 0.0625,
+    "y1": 0,
+    "z1": 0.0625,
+    "x2": 0.9375,
+    "y2": 0.8125,
+    "z2": 0.9375
+  },
+  "combustibleProps": {
+    "burnTemperature": 600,
+    "burnDuration": 35
+  },
+  "sounds": {
+    "place": "game:block/planks",
+    "hit": "game:block/planks",
+    "break": "game:block/planks",
+    "walk": "game:walk/wood"
+  },
+  "materialDensity": 600,
+  "tpHandTransform": {
+    "translation": { "x": -0.9, "y": -0.5, "z": -0.3 },
+    "rotation": { "x": 0, "y": 90, "z": -102 },
+    "scale": 0.56
+  },
+  "guiTransform": {
+    "origin": { "x": 0.5, "y": 0.4, "z": 0.5 },
+    "scale": 1.16
+  }
+}

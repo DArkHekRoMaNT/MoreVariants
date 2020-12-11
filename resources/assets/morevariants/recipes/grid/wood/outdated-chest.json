@@ -1,0 +1,206 @@
+[
+  {
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "birch" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "chest-birch-east",
+      "attributes": { "type": "normal" }
+    }
+  },
+  {
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "maple" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "chest-maple-east",
+      "attributes": { "type": "normal" }
+    }
+  },
+  {
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "pine" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "chest-pine-east",
+      "attributes": { "type": "normal" }
+    }
+  },
+  {
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "acacia" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "chest-acacia-east",
+      "attributes": { "type": "normal" }
+    }
+  },
+  {
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "kapok" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "chest-kapok-east",
+      "attributes": { "type": "normal" }
+    }
+  },
+  {
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "chest-east",
+        "attributes": { "type": "aged" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "chest-aged-east",
+      "attributes": { "type": "normal" }
+    }
+  },
+  {
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "labeledchest-east",
+        "attributes": { "type": "birch-labeled" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "labeledchest-birch-east",
+      "attributes": { "type": "normal" }
+    }
+  },
+  {
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "labeledchest-east",
+        "attributes": { "type": "maple-labeled" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "labeledchest-maple-east",
+      "attributes": { "type": "normal" }
+    }
+  },
+  {
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "labeledchest-east",
+        "attributes": { "type": "pine-labeled" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "labeledchest-pine-east",
+      "attributes": { "type": "normal" }
+    }
+  },
+  {
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "labeledchest-east",
+        "attributes": { "type": "acacia-labeled" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "labeledchest-acacia-east",
+      "attributes": { "type": "normal" }
+    }
+  },
+  {
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "labeledchest-east",
+        "attributes": { "type": "kapok-labeled" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "labeledchest-kapok-east",
+      "attributes": { "type": "normal" }
+    }
+  },
+  {
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "labeledchest-east",
+        "attributes": { "type": "aged-labeled" }
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "labeledchest-aged-east",
+      "attributes": { "type": "normal" }
+    }
+  }
+]
