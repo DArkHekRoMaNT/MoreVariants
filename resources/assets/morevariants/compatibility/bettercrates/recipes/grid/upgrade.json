@@ -3,8 +3,17 @@
     "ingredientPattern": "IBI,BCB,IBI",
     "ingredients": {
       "B": { "type": "item", "code": "game:plank-*" },
-      "I": { "type": "item", "code": "game:ingot-*", "allowedVariants": ["copper", "iron"], "name": "tier" },
-      "C": { "type": "block", "code": "chest-east" }
+      "I": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "allowedVariants": ["copper", "iron"],
+        "name": "tier"
+      },
+      "C": {
+        "type": "block",
+        "code": "chest-*-east",
+        "attributes": { "type": "normal" }
+      }
     },
     "width": 3,
     "height": 3,
@@ -14,8 +23,16 @@
     "ingredientPattern": "IBI,BCB,IBI",
     "ingredients": {
       "B": { "type": "item", "code": "game:plank-*" },
-      "I": { "type": "item", "code": "game:ingot-*", "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze"] },
-      "C": { "type": "block", "code": "chest-east" }
+      "I": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "allowedVariants": ["tinbronze", "bismuthbronze", "blackbronze"]
+      },
+      "C": {
+        "type": "block",
+        "code": "chest-*-east",
+        "attributes": { "type": "normal" }
+      }
     },
     "width": 3,
     "height": 3,

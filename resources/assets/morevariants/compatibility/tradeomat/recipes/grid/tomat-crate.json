@@ -7,7 +7,8 @@
     },
     "C": {
       "type": "block",
-      "code": "morevariants:chest-east"
+      "code": "morevariants:chest-*-east",
+      "attributes": { "type": "normal" }
     }
   },
   "width": 2,

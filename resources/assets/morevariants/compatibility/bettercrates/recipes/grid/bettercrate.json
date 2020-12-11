@@ -1,11 +1,23 @@
 {
   "ingredientPattern": "BLB,BCB,BBB",
   "ingredients": {
-    "B": { "type": "item", "code": "game:plank-*", "allowedVariants": ["birch", "maple", "pine", "acacia", "kapok", "aged"], "name": "type" },
+    "B": {
+      "type": "item",
+      "code": "game:plank-*",
+      "allowedVariants": ["birch", "maple", "pine", "acacia", "kapok", "aged"],
+      "name": "type"
+    },
     "L": { "type": "block", "code": "game:linen-*-down" },
-    "C": { "type": "block", "code": "chest-east" }
+    "C": {
+      "type": "block",
+      "code": "chest-*-east",
+      "attributes": { "type": "normal" }
+    }
   },
   "width": 3,
   "height": 3,
-  "output": { "type": "block", "code": "bettercrates:bettercrate-wood-center-east" }
+  "output": {
+    "type": "block",
+    "code": "bettercrates:bettercrate-wood-center-east"
+  }
 }

@@ -3,7 +3,8 @@
   "ingredients": {
     "C": {
       "type": "block",
-      "code": "chest-east"
+      "code": "chest-*-east",
+      "attributes": { "type": "normal" }
     },
     "P": {
       "type": "item",
