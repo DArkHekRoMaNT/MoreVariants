@@ -1,17 +1,49 @@
 {
   "code": "torchholder",
   "class": "BlockTorchHolder",
-  "behaviors": [{ "name": "HorizontalAttachable", "properties": { "handleDrops": false } }],
-  "attributes": { "handbook": { "exclude": true } },
+  "behaviors": [
+    { "name": "HorizontalAttachable", "properties": { "handleDrops": false } }
+  ],
+  "attributes": {
+    "handbook": {
+      "groupBy": ["torchholder-*"],
+      "exclude": true
+    }
+  },
   "variantgroups": [
-    { "code": "material", "states": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "steel", "brass", "bismuth", "tin", "molybdochalkos", "iron"] },
+    {
+      "code": "material",
+      "states": [
+        "copper",
+        "tinbronze",
+        "bismuthbronze",
+        "blackbronze",
+        "silver",
+        "gold",
+        "steel",
+        "brass",
+        "bismuth",
+        "tin",
+        "molybdochalkos",
+        "iron"
+      ]
+    },
     { "code": "state", "states": ["empty", "filled"] },
-    { "code": "wall", "loadFromProperties": "game:abstract/horizontalorientation" }
+    {
+      "code": "wall",
+      "loadFromProperties": "game:abstract/horizontalorientation"
+    }
   ],
   "shapebytype": {
     "*-north": { "base": "game:block/metal/torchholder/{state}", "rotateY": 0 },
-    "*-east": { "base": "game:block/metal/torchholder/{state}", "rotateY": 270 },
-    "*-south": { "base": "game:block/metal/torchholder/{state}", "rotateY": 180 },
+    "*-east": {
+      "base": "game:block/metal/torchholder/{state}",
+      "rotateY": 270
+    },
+    "*-south": {
+      "base": "game:block/metal/torchholder/{state}",
+      "rotateY": 180
+    },
     "*-west": { "base": "game:block/metal/torchholder/{state}", "rotateY": 90 }
   },
   "sidesolid": {
@@ -20,7 +52,10 @@
   "sideopaque": {
     "all": false
   },
-  "creativeinventory": { "general": ["*-empty-north"], "decorative": ["*-empty-north"] },
+  "creativeinventory": {
+    "general": ["*-empty-north"],
+    "decorative": ["*-empty-north"]
+  },
   "replaceable": 5001,
   "resistance": 0.5,
   "maxStackSize": 8,
@@ -31,7 +66,10 @@
   },
   "dropsByType": {
     "*-empty-*": [{ "code": "torchholder-{material}-empty-north" }],
-    "*-filled-*": [{ "code": "torchholder-{material}-empty-north" }, { "code": "game:torch-up" }]
+    "*-filled-*": [
+      { "code": "torchholder-{material}-empty-north" },
+      { "code": "game:torch-up" }
+    ]
   },
   "particlePropertiesByType": {
     "*-filled-*": [

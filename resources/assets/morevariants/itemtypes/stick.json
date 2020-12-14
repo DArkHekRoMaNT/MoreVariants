@@ -2,12 +2,20 @@
   "code": "stick",
   "shape": { "base": "item/stick" },
   "creativeinventory": { "general": ["*"], "items": ["*"] },
-  "variantgroups": [{ "code": "wood", "states": ["oak", "birch", "maple", "pine", "acacia", "kapok", "aged"] }],
+  "variantgroups": [
+    {
+      "code": "wood",
+      "states": ["oak", "birch", "maple", "pine", "acacia", "kapok", "aged"]
+    }
+  ],
   "textures": {
     "wood": { "base": "game:block/wood/planks/{wood}1" }
   },
   "attributes": {
     "handbook": {
+      "handbook": {
+        "groupBy": ["stick-*"]
+      },
       "exclude": true
     }
   },

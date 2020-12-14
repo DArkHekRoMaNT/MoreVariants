@@ -1,10 +1,22 @@
 {
   "code": "barrel",
-  "variantgroups": [{ "code": "type", "states": ["birch", "maple", "pine", "acacia", "kapok", "aged"] }],
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": ["birch", "maple", "pine", "acacia", "kapok", "aged"]
+    }
+  ],
   "class": "BlockBarrel",
   "entityClass": "Barrel",
   "behaviors": [{ "name": "UnstableFalling" }],
   "shape": { "base": "game:block/wood/barrel/empty" },
+  "attributes": {
+    "handbook": {
+      "groupBy": ["game:barrel", "barrel-*"]
+    },
+    "partialAttachable": true,
+    "capacityLitres": 50
+  },
   "creativeinventory": { "general": ["*"], "decorative": ["*"] },
   "blockmaterial": "Wood",
   "replaceable": 900,
@@ -17,10 +29,6 @@
     "sides": { "base": "block/wood/barrel/{type}/sides" },
     "top-empty": { "base": "block/wood/barrel/{type}/top-empty" },
     "top-lid": { "base": "block/wood/barrel/{type}/top-lid" }
-  },
-  "attributes": {
-    "partialAttachable": true,
-    "capacityLitres": 50
   },
   "sideao": {
     "all": false

@@ -3,6 +3,9 @@
   "class": "BlockGenericTypedContainer",
   "entityclass": "GenericTypedContainer",
   "attributes": {
+    "handbook": {
+      "groupBy": ["chest-*"]
+    },
     "partialAttachable": true,
     "inventoryClassName": "chest",
     "defaultType": "normal",
