@@ -9,35 +9,42 @@
     "partialAttachable": true,
     "inventoryClassName": "chest",
     "defaultType": "normal-generic",
-    "types": ["normal-generic"],
+    "types": ["normal-generic", "normal"],
     "rotatatableInterval": {
-      "normal-generic": "22.5degnot45deg"
+      "normal-generic": "22.5degnot45deg",
+      "normal": "22.5degnot45deg"
     },
     "drop": {
-      "normal-generic": true
+      "normal-generic": true,
+      "normal": true
     },
     "quantitySlots": {
-      "normal-generic": 16
+      "normal-generic": 16,
+      "normal": 16
     },
     "dialogTitleLangCode": {
-      "normal-generic": "chestcontents"
+      "normal-generic": "chestcontents",
+      "normal": "chestcontents"
     },
     "storageType": {
-      "normal-generic": 189
+      "normal-generic": 189,
+      "normal": 189
     },
     "retrieveOnly": {
-      "normal-generic": false
+      "normal-generic": false,
+      "normal": false
     },
     "shape": {
-      "normal-generic": "game:block/wood/chest/normal"
+      "normal-generic": "game:block/wood/chest/normal",
+      "normal": "game:block/wood/chest/outdated"
     },
-    "openSound": "game:sounds/block/largechestopen",
-    "closeSound": "game:sounds/block/largechestclose",
     "variantByGroup": "side",
-    "variantByGroupInventory": null
+    "variantByGroupInventory": null,
+    "openSound": "game:sounds/block/largechestopen",
+    "closeSound": "game:sounds/block/largechestclose"
   },
   "behaviors": [{ "name": "Lockable" }, { "name": "Container" }],
-  "entityBehaviors": [{ "name": "Animatable" }],
+  "entityBehaviors": [{ "name": "Animatable" }, { "name": "BEFixTypedChest" }],
   "variantgroups": [
     {
       "code": "variant",
@@ -55,6 +62,11 @@
             "type": "block",
             "code": "chest-{variant}-east",
             "attributes": { "type": "normal-generic" }
+          },
+          {
+            "type": "block",
+            "code": "chest-{variant}-east",
+            "attributes": { "type": "normal" }
           }
         ]
       }
@@ -74,7 +86,12 @@
     "normal-generic-lid": { "base": "block/wood/trunk/{variant}/lid" },
     "normal-generic-accessories": {
       "base": "block/wood/trunk/{variant}/accessories"
-    }
+    },
+
+    "normal-sides2": { "base": "block/wood/trunk/outdated/sides" },
+    "normal-lid": { "base": "block/wood/trunk/outdated/lid" },
+    "normal-accessories": { "base": "block/wood/trunk/outdated/accessories" },
+    "normal-label": { "base": "game:block/wood/chest/label" }
   },
   "blockmaterial": "Wood",
   "replaceable": 900,

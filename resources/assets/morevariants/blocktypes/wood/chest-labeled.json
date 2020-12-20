@@ -8,30 +8,30 @@
     },
     "partialAttachable": true,
     "inventoryClassName": "chest",
-    "defaultType": "normal",
-    "types": ["normal"],
+    "defaultType": "normal-labeled",
+    "types": ["normal-labeled"],
     "drop": {
-      "normal": true
+      "normal-labeled": true
     },
     "quantitySlots": {
-      "normal": 16
+      "normal-labeled": 16
     },
     "dialogTitleLangCode": {
-      "normal": "chestcontents"
+      "normal-labeled": "chestcontents"
     },
     "storageType": {
-      "normal": 189
+      "normal-labeled": 189
     },
     "retrieveOnly": {
-      "normal": false
+      "normal-labeled": false
     },
     "shape": {
-      "normal": "game:block/wood/chest/normal-labeled"
+      "normal-labeled": "game:block/wood/chest/normal-labeled"
     },
     "openSound": "game:sounds/block/largechestopen",
     "closeSound": "game:sounds/block/largechestclose",
-    "variantByGroup": "variant",
-    "variantByGroupInventory": "variant"
+    "variantByGroup": "side",
+    "variantByGroupInventory": null
   },
   "behaviors": [
     { "name": "Lockable" },
@@ -58,41 +58,32 @@
           {
             "type": "block",
             "code": "labeledchest-{variant}-east",
-            "attributes": { "type": "normal" }
+            "attributes": { "type": "normal-labeled" }
           }
         ]
       }
     ]
   },
   "heldTpIdleAnimation": "holdunderarm",
-  "shapeInventory": {
-    "base": "game:block/wood/chest/normal-labeled",
-    "rotateY": 270
-  },
+  "shapeInventory": { "base": "game:block/wood/chest/normal", "rotateY": 270 },
   "shapeByType": {
-    "*-north": {
-      "base": "game:block/wood/chest/normal-labeled",
-      "rotateY": 0
-    },
-    "*-east": {
-      "base": "game:block/wood/chest/normal-labeled",
-      "rotateY": 270
-    },
-    "*-west": {
-      "base": "game:block/wood/chest/normal-labeled",
-      "rotateY": 90
-    },
-    "*-south": {
-      "base": "game:block/wood/chest/normal-labeled",
-      "rotateY": 180
-    }
+    "*-north": { "base": "game:block/wood/chest/normal", "rotateY": 0 },
+    "*-east": { "base": "game:block/wood/chest/normal", "rotateY": 270 },
+    "*-west": { "base": "game:block/wood/chest/normal", "rotateY": 90 },
+    "*-south": { "base": "game:block/wood/chest/normal", "rotateY": 180 }
   },
   "_comment": "Must declare textures so they get added to the block texture atlas",
   "textures": {
-    "normal-sides2": { "base": "block/wood/trunk/{variant}/sides" },
-    "normal-lid": { "base": "block/wood/trunk/{variant}/lid" },
-    "normal-accessories": { "base": "block/wood/trunk/{variant}/accessories" },
-    "normal-label": { "base": "game:block/wood/chest/label" }
+    "normal-labeled-sides2": {
+      "base": "morevariants:block/wood/trunk/{variant}/sides"
+    },
+    "normal-labeled-lid": {
+      "base": "morevariants:block/wood/trunk/{variant}/lid"
+    },
+    "normal-labeled-accessories": {
+      "base": "morevariants:block/wood/trunk/{variant}/accessories"
+    },
+    "normal-labeled-label": { "base": "game:block/wood/chest/label" }
   },
   "blockmaterial": "Wood",
   "replaceable": 900,

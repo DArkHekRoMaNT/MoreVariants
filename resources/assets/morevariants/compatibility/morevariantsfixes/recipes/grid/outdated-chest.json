@@ -161,6 +161,7 @@
       "C": {
         "type": "block",
         "code": "chest-*-east",
+        "attributes": { "type": "normal" },
         "name": "type"
       }
     },
@@ -174,6 +175,7 @@
       "C": {
         "type": "block",
         "code": "labeledchest-*-east",
+        "attributes": { "type": "normal" },
         "name": "type"
       }
     },

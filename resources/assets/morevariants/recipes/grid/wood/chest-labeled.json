@@ -6,7 +6,7 @@
       "C": {
         "type": "block",
         "code": "chest-*-east",
-        "attributes": { "type": "normal" },
+        "attributes": { "type": "normal-generic" },
         "name": "type"
       }
     },
@@ -16,7 +16,7 @@
     "output": {
       "type": "block",
       "code": "labeledchest-{type}-east",
-      "attributes": { "type": "normal" }
+      "attributes": { "type": "normal-labeled" }
     }
   }
 ]

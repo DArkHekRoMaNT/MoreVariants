@@ -58,12 +58,12 @@
       "aged-labeled": false
     },
     "shape": {
-      "birch-labeled": "game:block/wood/chest/normal-labeled",
-      "maple-labeled": "game:block/wood/chest/normal-labeled",
-      "pine-labeled": "game:block/wood/chest/normal-labeled",
-      "acacia-labeled": "game:block/wood/chest/normal-labeled",
-      "kapok-labeled": "game:block/wood/chest/normal-labeled",
-      "aged-labeled": "game:block/wood/chest/normal-labeled"
+      "birch-labeled": "game:block/wood/chest/outdated-labeled",
+      "maple-labeled": "game:block/wood/chest/outdated-labeled",
+      "pine-labeled": "game:block/wood/chest/outdated-labeled",
+      "acacia-labeled": "game:block/wood/chest/outdated-labeled",
+      "kapok-labeled": "game:block/wood/chest/outdated-labeled",
+      "aged-labeled": "game:block/wood/chest/outdated-labeled"
     },
     "typedOpenSound": {
       "birch-labeled": "game:sounds/block/largechestopen",
@@ -92,7 +92,7 @@
       "properties": { "dropBlockFace": "east" }
     }
   ],
-  "entityBehaviors": [{ "name": "Animatable" }],
+  "entityBehaviors": [{ "name": "Animatable" }, { "name": "BEFixTypedChest" }],
   "variantgroups": [
     { "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
   ],
