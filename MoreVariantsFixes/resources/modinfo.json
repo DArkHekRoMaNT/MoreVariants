@@ -1,0 +1,13 @@
+{
+  "type": "code",
+  "modid": "morevariantsfixes",
+  "name": "Fixes for More Variants",
+  "author": "DArkHekRoMaNT",
+  "version": "1.0.0",
+  "dependency": {
+    "game": "1.14.0",
+    "compatibilitylib": "1.1.0",
+    "morevariants": "1.2.0"
+  },
+  "website": "https://github.com/darkhekromant/MoreVariants"
+}

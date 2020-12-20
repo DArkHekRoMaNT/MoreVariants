@@ -13,6 +13,6 @@
   "output": {
     "type": "block",
     "code": "chest-{type}-east",
-    "attributes": { "type": "normal" }
+    "attributes": { "type": "normal-generic" }
   }
 }

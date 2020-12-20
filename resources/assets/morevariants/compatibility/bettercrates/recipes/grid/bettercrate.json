@@ -11,7 +11,7 @@
     "C": {
       "type": "block",
       "code": "chest-*-east",
-      "attributes": { "type": "normal" }
+      "attributes": { "type": "normal-generic" }
     }
   },
   "width": 3,

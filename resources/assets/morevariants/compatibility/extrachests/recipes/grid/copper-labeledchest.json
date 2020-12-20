@@ -5,7 +5,7 @@
       "C": {
         "type": "block",
         "code": "labeledchest-*-east",
-        "attributes": { "type": "normal" }
+        "attributes": { "type": "normal-labeled" }
       },
       "P": {
         "type": "item",

@@ -10,11 +10,7 @@
     },
     "width": 1,
     "height": 1,
-    "output": {
-      "type": "block",
-      "code": "chest-birch-east",
-      "attributes": { "type": "normal" }
-    }
+    "output": { "type": "item", "code": "game:plank-birch", "quantity": 8 }
   },
   {
     "ingredientPattern": "C",
@@ -27,11 +23,7 @@
     },
     "width": 1,
     "height": 1,
-    "output": {
-      "type": "block",
-      "code": "chest-maple-east",
-      "attributes": { "type": "normal" }
-    }
+    "output": { "type": "item", "code": "game:plank-maple", "quantity": 8 }
   },
   {
     "ingredientPattern": "C",
@@ -44,11 +36,7 @@
     },
     "width": 1,
     "height": 1,
-    "output": {
-      "type": "block",
-      "code": "chest-pine-east",
-      "attributes": { "type": "normal" }
-    }
+    "output": { "type": "item", "code": "game:plank-pine", "quantity": 8 }
   },
   {
     "ingredientPattern": "C",
@@ -61,11 +49,7 @@
     },
     "width": 1,
     "height": 1,
-    "output": {
-      "type": "block",
-      "code": "chest-acacia-east",
-      "attributes": { "type": "normal" }
-    }
+    "output": { "type": "item", "code": "game:plank-acacia", "quantity": 8 }
   },
   {
     "ingredientPattern": "C",
@@ -78,11 +62,7 @@
     },
     "width": 1,
     "height": 1,
-    "output": {
-      "type": "block",
-      "code": "chest-kapok-east",
-      "attributes": { "type": "normal" }
-    }
+    "output": { "type": "item", "code": "game:plank-kapok", "quantity": 8 }
   },
   {
     "ingredientPattern": "C",
@@ -95,11 +75,7 @@
     },
     "width": 1,
     "height": 1,
-    "output": {
-      "type": "block",
-      "code": "chest-aged-east",
-      "attributes": { "type": "normal" }
-    }
+    "output": { "type": "item", "code": "game:plank-aged", "quantity": 8 }
   },
   {
     "ingredientPattern": "C",
@@ -112,11 +88,7 @@
     },
     "width": 1,
     "height": 1,
-    "output": {
-      "type": "block",
-      "code": "labeledchest-birch-east",
-      "attributes": { "type": "normal" }
-    }
+    "output": { "type": "item", "code": "game:plank-birch", "quantity": 10 }
   },
   {
     "ingredientPattern": "C",
@@ -129,11 +101,7 @@
     },
     "width": 1,
     "height": 1,
-    "output": {
-      "type": "block",
-      "code": "labeledchest-maple-east",
-      "attributes": { "type": "normal" }
-    }
+    "output": { "type": "item", "code": "game:plank-maple", "quantity": 10 }
   },
   {
     "ingredientPattern": "C",
@@ -146,11 +114,7 @@
     },
     "width": 1,
     "height": 1,
-    "output": {
-      "type": "block",
-      "code": "labeledchest-pine-east",
-      "attributes": { "type": "normal" }
-    }
+    "output": { "type": "item", "code": "game:plank-pine", "quantity": 10 }
   },
   {
     "ingredientPattern": "C",
@@ -163,11 +127,7 @@
     },
     "width": 1,
     "height": 1,
-    "output": {
-      "type": "block",
-      "code": "labeledchest-acacia-east",
-      "attributes": { "type": "normal" }
-    }
+    "output": { "type": "item", "code": "game:plank-acacia", "quantity": 10 }
   },
   {
     "ingredientPattern": "C",
@@ -180,11 +140,7 @@
     },
     "width": 1,
     "height": 1,
-    "output": {
-      "type": "block",
-      "code": "labeledchest-kapok-east",
-      "attributes": { "type": "normal" }
-    }
+    "output": { "type": "item", "code": "game:plank-kapok", "quantity": 10 }
   },
   {
     "ingredientPattern": "C",
@@ -197,10 +153,32 @@
     },
     "width": 1,
     "height": 1,
-    "output": {
-      "type": "block",
-      "code": "labeledchest-aged-east",
-      "attributes": { "type": "normal" }
-    }
+    "output": { "type": "item", "code": "game:plank-aged", "quantity": 10 }
+  },
+  {
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "chest-*-east",
+        "name": "type"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "item", "code": "game:plank-{type}", "quantity": 8 }
+  },
+  {
+    "ingredientPattern": "C",
+    "ingredients": {
+      "C": {
+        "type": "block",
+        "code": "labeledchest-*-east",
+        "name": "type"
+      }
+    },
+    "width": 1,
+    "height": 1,
+    "output": { "type": "item", "code": "game:plank-{type}", "quantity": 10 }
   }
 ]
