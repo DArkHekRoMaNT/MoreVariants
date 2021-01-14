@@ -6,7 +6,7 @@
   ],
   "attributes": {
     "handbook": {
-      "groupBy": ["torchholder-*"],
+      "groupBy": ["torchholder-*-empty-north"],
       "exclude": true
     }
   },
@@ -54,7 +54,8 @@
   },
   "creativeinventory": {
     "general": ["*-empty-north"],
-    "decorative": ["*-empty-north"]
+    "decorative": ["*-empty-north"],
+    "morevariants": ["*-empty-north"]
   },
   "replaceable": 5001,
   "resistance": 0.5,

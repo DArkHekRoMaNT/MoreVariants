@@ -8,10 +8,18 @@
     }
   },
   "variantgroups": [
-    { "code": "type", "states": ["birch", "maple", "pine", "acacia", "kapok", "aged"] },
+    {
+      "code": "type",
+      "states": ["birch", "maple", "pine", "acacia", "kapok", "aged"]
+    },
     { "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
   ],
-  "behaviors": [{ "name": "HorizontalAttachable", "properties": { "dropBlockFace": "east" } }],
+  "behaviors": [
+    {
+      "name": "HorizontalAttachable",
+      "properties": { "dropBlockFace": "east" }
+    }
+  ],
   "shapeByType": {
     "*-north": { "base": "game:block/wood/shelf", "rotateY": 0 },
     "*-east": { "base": "game:block/wood/shelf", "rotateY": 270 },
@@ -23,7 +31,11 @@
     "wood2": { "base": "block/wood/shelf/{type}/wood" }
   },
   "heldTpIdleAnimation": "holdunderarm",
-  "creativeinventory": { "general": ["*-east"], "decorative": ["*-east"] },
+  "creativeinventory": {
+    "general": ["*-east"],
+    "decorative": ["*-east"],
+    "morevariants": ["*-east"]
+  },
   "blockmaterial": "Wood",
   "replaceable": 900,
   "resistance": 1.5,

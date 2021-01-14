@@ -1,9 +1,15 @@
 {
   "code": "table",
-  "variantgroups": [{ "code": "type", "states": ["birch", "maple", "pine", "acacia", "kapok"] }],
+  "variantgroups": [
+    { "code": "type", "states": ["birch", "maple", "pine", "acacia", "kapok"] }
+  ],
   "shape": { "base": "game:block/wood/table" },
   "heldTpIdleAnimation": "holdunderarm",
-  "creativeinventory": { "general": ["*"], "decorative": ["*"] },
+  "creativeinventory": {
+    "general": ["*"],
+    "decorative": ["*"],
+    "morevariants": ["*"]
+  },
   "attributes": {
     "handbook": {
       "groupBy": ["table-*"]

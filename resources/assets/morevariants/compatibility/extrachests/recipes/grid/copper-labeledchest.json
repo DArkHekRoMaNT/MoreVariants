@@ -4,7 +4,7 @@
     "ingredients": {
       "C": {
         "type": "block",
-        "code": "labeledchest-*-east",
+        "code": "labeledchest-*",
         "attributes": { "type": "normal-labeled" }
       },
       "P": {

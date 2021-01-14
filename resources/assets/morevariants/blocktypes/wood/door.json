@@ -9,55 +9,164 @@
       "groupBy": ["woodendoor-*"]
     }
   },
-  "variantgroups": [{ "code": "type", "states": ["birch", "maple", "pine", "acacia", "kapok", "aged"] }, { "loadFromProperties": "abstract/horizontalorientation" }, { "code": "part", "states": ["down", "up"] }, { "code": "state", "states": ["closed", "opened"] }, { "code": "knobOrientation", "states": ["left", "right"] }],
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": ["birch", "maple", "pine", "acacia", "kapok", "aged"]
+    },
+    { "loadFromProperties": "abstract/horizontalorientation" },
+    { "code": "part", "states": ["down", "up"] },
+    { "code": "state", "states": ["closed", "opened"] },
+    { "code": "knobOrientation", "states": ["left", "right"] }
+  ],
   "textures": {
     "bottom_left": { "base": "block/wood/door/{type}/bottom_left" },
     "bottom_right": { "base": "block/wood/door/{type}/bottom_right" },
     "top_left": { "base": "block/wood/door/{type}/top_left" },
     "top_right": { "base": "block/wood/door/{type}/top_right" }
   },
-  "creativeinventory": { "general": ["woodendoor-{type}-north-down-closed-left"], "decorative": ["woodendoor-{type}-north-down-closed-left"] },
+  "creativeinventory": {
+    "general": ["woodendoor-{type}-north-down-closed-left"],
+    "decorative": ["woodendoor-{type}-north-down-closed-left"],
+    "morevariants": ["woodendoor-{type}-north-down-closed-left"]
+  },
   "shapeinventory": { "base": "block/wood/door/inventory" },
   "shapebytype": {
-    "*-north-down-closed-left": { "base": "block/wood/door/down_closed_left", "rotateY": 90 },
-    "*-north-up-closed-left": { "base": "block/wood/door/up_closed_left", "rotateY": 90 },
-    "*-north-down-opened-left": { "base": "block/wood/door/down_opened_left", "rotateY": 90 },
-    "*-north-up-opened-left": { "base": "block/wood/door/up_opened_left", "rotateY": 90 },
+    "*-north-down-closed-left": {
+      "base": "block/wood/door/down_closed_left",
+      "rotateY": 90
+    },
+    "*-north-up-closed-left": {
+      "base": "block/wood/door/up_closed_left",
+      "rotateY": 90
+    },
+    "*-north-down-opened-left": {
+      "base": "block/wood/door/down_opened_left",
+      "rotateY": 90
+    },
+    "*-north-up-opened-left": {
+      "base": "block/wood/door/up_opened_left",
+      "rotateY": 90
+    },
 
-    "*-east-down-closed-left": { "base": "block/wood/door/down_closed_left", "rotateY": 0 },
-    "*-east-up-closed-left": { "base": "block/wood/door/up_closed_left", "rotateY": 0 },
-    "*-east-down-opened-left": { "base": "block/wood/door/down_opened_left", "rotateY": 0 },
-    "*-east-up-opened-left": { "base": "block/wood/door/up_opened_left", "rotateY": 0 },
+    "*-east-down-closed-left": {
+      "base": "block/wood/door/down_closed_left",
+      "rotateY": 0
+    },
+    "*-east-up-closed-left": {
+      "base": "block/wood/door/up_closed_left",
+      "rotateY": 0
+    },
+    "*-east-down-opened-left": {
+      "base": "block/wood/door/down_opened_left",
+      "rotateY": 0
+    },
+    "*-east-up-opened-left": {
+      "base": "block/wood/door/up_opened_left",
+      "rotateY": 0
+    },
 
-    "*-south-down-closed-left": { "base": "block/wood/door/down_closed_left", "rotateY": 270 },
-    "*-south-up-closed-left": { "base": "block/wood/door/up_closed_left", "rotateY": 270 },
-    "*-south-down-opened-left": { "base": "block/wood/door/down_opened_left", "rotateY": 270 },
-    "*-south-up-opened-left": { "base": "block/wood/door/up_opened_left", "rotateY": 270 },
+    "*-south-down-closed-left": {
+      "base": "block/wood/door/down_closed_left",
+      "rotateY": 270
+    },
+    "*-south-up-closed-left": {
+      "base": "block/wood/door/up_closed_left",
+      "rotateY": 270
+    },
+    "*-south-down-opened-left": {
+      "base": "block/wood/door/down_opened_left",
+      "rotateY": 270
+    },
+    "*-south-up-opened-left": {
+      "base": "block/wood/door/up_opened_left",
+      "rotateY": 270
+    },
 
-    "*-west-down-closed-left": { "base": "block/wood/door/down_closed_left", "rotateY": 180 },
-    "*-west-up-closed-left": { "base": "block/wood/door/up_closed_left", "rotateY": 180 },
-    "*-west-down-opened-left": { "base": "block/wood/door/down_opened_left", "rotateY": 180 },
-    "*-west-up-opened-left": { "base": "block/wood/door/up_opened_left", "rotateY": 180 },
+    "*-west-down-closed-left": {
+      "base": "block/wood/door/down_closed_left",
+      "rotateY": 180
+    },
+    "*-west-up-closed-left": {
+      "base": "block/wood/door/up_closed_left",
+      "rotateY": 180
+    },
+    "*-west-down-opened-left": {
+      "base": "block/wood/door/down_opened_left",
+      "rotateY": 180
+    },
+    "*-west-up-opened-left": {
+      "base": "block/wood/door/up_opened_left",
+      "rotateY": 180
+    },
 
-    "*-north-down-closed-right": { "base": "block/wood/door/down_closed_right", "rotateY": 90 },
-    "*-north-up-closed-right": { "base": "block/wood/door/up_closed_right", "rotateY": 90 },
-    "*-north-down-opened-right": { "base": "block/wood/door/down_opened_right", "rotateY": 90 },
-    "*-north-up-opened-right": { "base": "block/wood/door/up_opened_right", "rotateY": 90 },
+    "*-north-down-closed-right": {
+      "base": "block/wood/door/down_closed_right",
+      "rotateY": 90
+    },
+    "*-north-up-closed-right": {
+      "base": "block/wood/door/up_closed_right",
+      "rotateY": 90
+    },
+    "*-north-down-opened-right": {
+      "base": "block/wood/door/down_opened_right",
+      "rotateY": 90
+    },
+    "*-north-up-opened-right": {
+      "base": "block/wood/door/up_opened_right",
+      "rotateY": 90
+    },
 
-    "*-east-down-closed-right": { "base": "block/wood/door/down_closed_right", "rotateY": 0 },
-    "*-east-up-closed-right": { "base": "block/wood/door/up_closed_right", "rotateY": 0 },
-    "*-east-down-opened-right": { "base": "block/wood/door/down_opened_right", "rotateY": 0 },
-    "*-east-up-opened-right": { "base": "block/wood/door/up_opened_right", "rotateY": 0 },
+    "*-east-down-closed-right": {
+      "base": "block/wood/door/down_closed_right",
+      "rotateY": 0
+    },
+    "*-east-up-closed-right": {
+      "base": "block/wood/door/up_closed_right",
+      "rotateY": 0
+    },
+    "*-east-down-opened-right": {
+      "base": "block/wood/door/down_opened_right",
+      "rotateY": 0
+    },
+    "*-east-up-opened-right": {
+      "base": "block/wood/door/up_opened_right",
+      "rotateY": 0
+    },
 
-    "*-south-down-closed-right": { "base": "block/wood/door/down_closed_right", "rotateY": 270 },
-    "*-south-up-closed-right": { "base": "block/wood/door/up_closed_right", "rotateY": 270 },
-    "*-south-down-opened-right": { "base": "block/wood/door/down_opened_right", "rotateY": 270 },
-    "*-south-up-opened-right": { "base": "block/wood/door/up_opened_right", "rotateY": 270 },
+    "*-south-down-closed-right": {
+      "base": "block/wood/door/down_closed_right",
+      "rotateY": 270
+    },
+    "*-south-up-closed-right": {
+      "base": "block/wood/door/up_closed_right",
+      "rotateY": 270
+    },
+    "*-south-down-opened-right": {
+      "base": "block/wood/door/down_opened_right",
+      "rotateY": 270
+    },
+    "*-south-up-opened-right": {
+      "base": "block/wood/door/up_opened_right",
+      "rotateY": 270
+    },
 
-    "*-west-down-closed-right": { "base": "block/wood/door/down_closed_right", "rotateY": 180 },
-    "*-west-up-closed-right": { "base": "block/wood/door/up_closed_right", "rotateY": 180 },
-    "*-west-down-opened-right": { "base": "block/wood/door/down_opened_right", "rotateY": 180 },
-    "*-west-up-opened-right": { "base": "block/wood/door/up_opened_right", "rotateY": 180 }
+    "*-west-down-closed-right": {
+      "base": "block/wood/door/down_closed_right",
+      "rotateY": 180
+    },
+    "*-west-up-closed-right": {
+      "base": "block/wood/door/up_closed_right",
+      "rotateY": 180
+    },
+    "*-west-down-opened-right": {
+      "base": "block/wood/door/down_opened_right",
+      "rotateY": 180
+    },
+    "*-west-up-opened-right": {
+      "base": "block/wood/door/up_opened_right",
+      "rotateY": 180
+    }
   },
   "blockmaterial": "Wood",
   "replaceable": 500,

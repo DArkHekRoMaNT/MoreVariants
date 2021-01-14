@@ -21,7 +21,8 @@
       "internalConsoleOptions": "openOnSessionStart",
       "env": {
         "TEXTURE_DEBUG_DISPOSE": "0"
-      }
+      },
+      "justMyCode": false
     },
     {
       "name": "Launch Client (Mono)",

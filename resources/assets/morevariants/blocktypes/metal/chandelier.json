@@ -45,7 +45,8 @@
   ],
   "creativeinventory": {
     "general": ["*-candle0", "*-candle8"],
-    "decorative": ["*-candle0", "*-candle8"]
+    "decorative": ["*-candle0", "*-candle8"],
+    "morevariants": ["*-candle0", "*-candle8"]
   },
   "textures": {
     "blackbronze": { "base": "block/metal/chandelier/{material}" },

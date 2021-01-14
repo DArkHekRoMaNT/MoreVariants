@@ -5,7 +5,7 @@
       "S": { "type": "block", "code": "game:sign-ground-north" },
       "C": {
         "type": "block",
-        "code": "chest-*-east",
+        "code": "chest-*",
         "attributes": { "type": "normal-generic" },
         "name": "type"
       }
@@ -15,7 +15,7 @@
     "height": 2,
     "output": {
       "type": "block",
-      "code": "labeledchest-{type}-east",
+      "code": "labeledchest-{type}",
       "attributes": { "type": "normal-labeled" }
     }
   }

@@ -12,8 +12,15 @@
     }
   ],
   "variantgroups": [
-    { "code": "metal", "states": ["cursed"], "loadFromProperties": "game:block/metal" },
-    { "code": "rot", "states": ["north", "east", "south", "west", "up", "down"] },
+    {
+      "code": "metal",
+      "states": ["cursed"],
+      "loadFromProperties": "game:block/metal"
+    },
+    {
+      "code": "rot",
+      "states": ["north", "east", "south", "west", "up", "down"]
+    },
     { "code": "cover", "states": ["free", "snow"] }
   ],
   "skipVariants": ["morevariants:*-up-snow"],
@@ -39,7 +46,11 @@
   },
   "replaceable": 200,
   "resistance": 4,
-  "creativeinventory": { "general": ["*-down-free"], "construction": ["*-down-free"] },
+  "creativeinventory": {
+    "general": ["*-down-free"],
+    "construction": ["*-down-free"],
+    "morevariants": ["*-down-free"]
+  },
   "drops": [{ "code": "metalsheetslab-{metal}-down-free" }],
   "shapeByType": {
     "*-snow": { "base": "game:block/basic/slab/snow-slab-{rot}" },
@@ -49,13 +60,23 @@
     "*-cursed-*": {
       "all": {
         "base": "block/metal/sheet/{metal}1",
-        "alternates": [{ "base": "block/metal/sheet/{metal}2" }, { "base": "block/metal/sheet/{metal}3" }, { "base": "block/metal/sheet/{metal}4" }, { "base": "block/metal/sheet/{metal}5" }]
+        "alternates": [
+          { "base": "block/metal/sheet/{metal}2" },
+          { "base": "block/metal/sheet/{metal}3" },
+          { "base": "block/metal/sheet/{metal}4" },
+          { "base": "block/metal/sheet/{metal}5" }
+        ]
       }
     },
     "*": {
       "all": {
         "base": "game:block/metal/sheet/{metal}1",
-        "alternates": [{ "base": "game:block/metal/sheet/{metal}2" }, { "base": "game:block/metal/sheet/{metal}3" }, { "base": "game:block/metal/sheet/{metal}4" }, { "base": "game:block/metal/sheet/{metal}5" }]
+        "alternates": [
+          { "base": "game:block/metal/sheet/{metal}2" },
+          { "base": "game:block/metal/sheet/{metal}3" },
+          { "base": "game:block/metal/sheet/{metal}4" },
+          { "base": "game:block/metal/sheet/{metal}5" }
+        ]
       }
     }
   },
@@ -112,7 +133,10 @@
     "walk": "game:walk/stone",
     "hit": "game:block/anvil",
     "byTool": {
-      "Pickaxe": { "hit": "game:block/rock-hit-pickaxe", "break": "game:block/rock-break-pickaxe" }
+      "Pickaxe": {
+        "hit": "game:block/rock-hit-pickaxe",
+        "break": "game:block/rock-break-pickaxe"
+      }
     }
   },
   "guiTransform": {

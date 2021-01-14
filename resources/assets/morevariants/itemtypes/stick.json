@@ -1,7 +1,11 @@
 {
   "code": "stick",
   "shape": { "base": "item/stick" },
-  "creativeinventory": { "general": ["*"], "items": ["*"] },
+  "creativeinventory": {
+    "general": ["*"],
+    "items": ["*"],
+    "morevariants": ["*"]
+  },
   "variantgroups": [
     {
       "code": "wood",

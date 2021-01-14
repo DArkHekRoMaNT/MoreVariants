@@ -8,9 +8,9 @@
 	"textureSizes": {
 	},
 	"textures": {
-		"sides2": "block/wood/trunk/outdated/sides",
-		"lid": "block/wood/outdated/trunk/lid",
-		"accessories": "block/wood/outdated/trunk/accessories"
+		"sides2": "morevariants:block/wood/trunk/pine/sides",
+		"lid": "morevariants:block/wood/trunk/pine/lid",
+		"accessories": "morevariants:block/wood/trunk/pine/accessories"
 	},
 	"elements": [
 		{

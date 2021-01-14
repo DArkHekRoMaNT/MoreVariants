@@ -11,8 +11,8 @@
     },
     "C": {
       "type": "block",
-      "code": "morevariants:chest-*-east",
-      "attributes": { "type": "normal" }
+      "code": "morevariants:chest-*",
+      "attributes": { "type": "normal-generic" }
     }
   },
   "width": 3,

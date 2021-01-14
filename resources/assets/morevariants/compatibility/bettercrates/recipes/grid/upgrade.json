@@ -11,7 +11,7 @@
       },
       "C": {
         "type": "block",
-        "code": "chest-*-east",
+        "code": "chest-*",
         "attributes": { "type": "normal-generic" }
       }
     },
@@ -30,7 +30,7 @@
       },
       "C": {
         "type": "block",
-        "code": "chest-*-east",
+        "code": "chest-*",
         "attributes": { "type": "normal-generic" }
       }
     },

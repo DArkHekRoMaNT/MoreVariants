@@ -10,7 +10,7 @@
     "L": { "type": "block", "code": "game:linen-*-down" },
     "C": {
       "type": "block",
-      "code": "chest-*-east",
+      "code": "chest-*",
       "attributes": { "type": "normal-generic" }
     }
   },

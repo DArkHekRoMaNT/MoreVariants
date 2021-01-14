@@ -12,12 +12,16 @@
   "shape": { "base": "game:block/wood/barrel/empty" },
   "attributes": {
     "handbook": {
-      "groupBy": ["game:barrel", "barrel-*"]
+      "groupBy": ["barrel-*"]
     },
     "partialAttachable": true,
     "capacityLitres": 50
   },
-  "creativeinventory": { "general": ["*"], "decorative": ["*"] },
+  "creativeinventory": {
+    "general": ["*"],
+    "decorative": ["*"],
+    "morevariants": ["*"]
+  },
   "blockmaterial": "Wood",
   "replaceable": 900,
   "resistance": 1.5,

@@ -1,14 +1,16 @@
 {
 	"editor": {
 		"allAngles": false,
-		"singleTexture": false
+		"entityTextureMode": false
 	},
 	"textureWidth": 16,
 	"textureHeight": 16,
+	"textureSizes": {
+	},
 	"textures": {
-		"sides2": "block/wood/trunk/outdated/sides",
-		"lid": "block/wood/trunk/outdated/lid",
-		"accessories": "block/wood/trunk/outdated/accessories"
+		"sides2": "morevariants:block/wood/trunk/acacia/sides",
+		"lid": "morevariants:block/wood/trunk/acacia/lid",
+		"accessories": "morevariants:block/wood/trunk/acacia/accessories"
 	},
 	"elements": [
 		{
@@ -396,7 +398,6 @@
 					"from": [ 2.0, 12.0, 2.0 ], 
 					"to": [ 14.0, 13.0, 13.0 ], 
 					"rotationOrigin": [ 8.0, 11.0, 1.0 ],
-					"rotationX": -67.5,
 					"faces": {
 						"north": { "texture": "#lid", "uv": [ 0.0, 0.0, 12.0, 1.0 ], "enabled": false },
 						"east": { "texture": "#lid", "uv": [ 0.5, 0.0, 11.5, 1.0 ], "enabled": false },
@@ -523,19 +524,31 @@
 					]
 				}
 			]
-		},
-		{
-			"name": "label",
-			"from": [ 3.0, 3.0, 14.0 ], 
-			"to": [ 13.0, 9.0, 14.5 ], 
-			"rotationOrigin": [ 3.0, 3.0, 14.0 ],
-			"faces": {
-				"north": { "texture": "#accessories", "uv": [ 0.0, 0.0, 10.0, 6.0 ], "enabled": false },
-				"east": { "texture": "#accessories", "uv": [ 0.0, 10.0, 0.5, 16.0 ] },
-				"south": { "texture": "#accessories", "uv": [ 0.0, 10.0, 10.0, 16.0 ] },
-				"west": { "texture": "#accessories", "uv": [ 9.5, 10.0, 10.0, 16.0 ] },
-				"up": { "texture": "#accessories", "uv": [ 0.0, 10.0, 10.0, 10.5 ] },
-				"down": { "texture": "#accessories", "uv": [ 0.0, 10.0, 10.0, 10.5 ] }
-			}
 		}
-	]}
+	],
+	"animations": [
+		{
+			"name": "lidopen",
+			"code": "lidopen",
+			"quantityframes": 30,
+			"onActivityStopped": "Rewind",
+			"onAnimationEnd": "Hold",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"origin": {  },
+						"lid": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				},
+				{
+					"frame": 29,
+					"elements": {
+						"origin": {  },
+						"lid": { "rotationX": -67.5, "rotationY": 0.0, "rotationZ": 0.0 }
+					}
+				}
+			]
+		}
+	]
+}

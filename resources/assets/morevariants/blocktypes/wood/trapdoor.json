@@ -26,7 +26,10 @@
     }
   },
   "variantgroups": [
-    { "code": "type", "states": ["birch", "maple", "pine", "acacia", "kapok", "aged"] },
+    {
+      "code": "type",
+      "states": ["birch", "maple", "pine", "acacia", "kapok", "aged"]
+    },
     { "code": "state", "states": ["closed", "opened"] },
     { "code": "v", "states": ["up", "left", "down", "right"] },
     { "code": "rot", "loadFromProperties": "abstract/horizontalorientation" }
@@ -36,24 +39,92 @@
     "wood": { "base": "block/wood/trapdoor/{type}/wood" }
   },
   "shapeByType": {
-    "*-up-north": { "base": "game:block/wood/trapdoor-{state}", "rotateY": 0, "rotateZ": 0 },
-    "*-up-west": { "base": "game:block/wood/trapdoor-{state}", "rotateY": 90, "rotateX": 0 },
-    "*-up-south": { "base": "game:block/wood/trapdoor-{state}", "rotateY": 180, "rotateZ": 0 },
-    "*-up-east": { "base": "game:block/wood/trapdoor-{state}", "rotateY": 270, "rotateX": 0 },
-    "*-left-north": { "base": "game:block/wood/trapdoor-{state}", "rotateY": 0, "rotateZ": 270 },
-    "*-left-west": { "base": "game:block/wood/trapdoor-{state}", "rotateY": 90, "rotateX": 90 },
-    "*-left-south": { "base": "game:block/wood/trapdoor-{state}", "rotateY": 180, "rotateZ": 90 },
-    "*-left-east": { "base": "game:block/wood/trapdoor-{state}", "rotateY": 270, "rotateX": 90 },
-    "*-down-north": { "base": "game:block/wood/trapdoor-{state}", "rotateY": 0, "rotateZ": 180 },
-    "*-down-west": { "base": "game:block/wood/trapdoor-{state}", "rotateY": 90, "rotateX": 180 },
-    "*-down-south": { "base": "game:block/wood/trapdoor-{state}", "rotateY": 180, "rotateZ": 180 },
-    "*-down-east": { "base": "game:block/wood/trapdoor-{state}", "rotateY": 270, "rotateX": 180 },
-    "*-right-north": { "base": "game:block/wood/trapdoor-{state}", "rotateY": 0, "rotateZ": 90 },
-    "*-right-west": { "base": "game:block/wood/trapdoor-{state}", "rotateY": 90, "rotateX": 270 },
-    "*-right-south": { "base": "game:block/wood/trapdoor-{state}", "rotateY": 180, "rotateZ": 270 },
-    "*-right-east": { "base": "game:block/wood/trapdoor-{state}", "rotateY": 270, "rotateX": 270 }
+    "*-up-north": {
+      "base": "game:block/wood/trapdoor-{state}",
+      "rotateY": 0,
+      "rotateZ": 0
+    },
+    "*-up-west": {
+      "base": "game:block/wood/trapdoor-{state}",
+      "rotateY": 90,
+      "rotateX": 0
+    },
+    "*-up-south": {
+      "base": "game:block/wood/trapdoor-{state}",
+      "rotateY": 180,
+      "rotateZ": 0
+    },
+    "*-up-east": {
+      "base": "game:block/wood/trapdoor-{state}",
+      "rotateY": 270,
+      "rotateX": 0
+    },
+    "*-left-north": {
+      "base": "game:block/wood/trapdoor-{state}",
+      "rotateY": 0,
+      "rotateZ": 270
+    },
+    "*-left-west": {
+      "base": "game:block/wood/trapdoor-{state}",
+      "rotateY": 90,
+      "rotateX": 90
+    },
+    "*-left-south": {
+      "base": "game:block/wood/trapdoor-{state}",
+      "rotateY": 180,
+      "rotateZ": 90
+    },
+    "*-left-east": {
+      "base": "game:block/wood/trapdoor-{state}",
+      "rotateY": 270,
+      "rotateX": 90
+    },
+    "*-down-north": {
+      "base": "game:block/wood/trapdoor-{state}",
+      "rotateY": 0,
+      "rotateZ": 180
+    },
+    "*-down-west": {
+      "base": "game:block/wood/trapdoor-{state}",
+      "rotateY": 90,
+      "rotateX": 180
+    },
+    "*-down-south": {
+      "base": "game:block/wood/trapdoor-{state}",
+      "rotateY": 180,
+      "rotateZ": 180
+    },
+    "*-down-east": {
+      "base": "game:block/wood/trapdoor-{state}",
+      "rotateY": 270,
+      "rotateX": 180
+    },
+    "*-right-north": {
+      "base": "game:block/wood/trapdoor-{state}",
+      "rotateY": 0,
+      "rotateZ": 90
+    },
+    "*-right-west": {
+      "base": "game:block/wood/trapdoor-{state}",
+      "rotateY": 90,
+      "rotateX": 270
+    },
+    "*-right-south": {
+      "base": "game:block/wood/trapdoor-{state}",
+      "rotateY": 180,
+      "rotateZ": 270
+    },
+    "*-right-east": {
+      "base": "game:block/wood/trapdoor-{state}",
+      "rotateY": 270,
+      "rotateX": 270
+    }
   },
-  "creativeinventory": { "general": ["*-closed-up-north"], "decorative": ["*-closed-up-north"] },
+  "creativeinventory": {
+    "general": ["*-closed-up-north"],
+    "decorative": ["*-closed-up-north"],
+    "morevariants": ["*-closed-up-north"]
+  },
   "drops": [{ "code": "trapdoor-{type}-closed-up-north" }],
   "blockmaterial": "Wood",
   "replaceable": 900,

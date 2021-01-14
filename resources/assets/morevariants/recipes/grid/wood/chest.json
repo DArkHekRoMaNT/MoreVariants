@@ -12,7 +12,7 @@
   "height": 3,
   "output": {
     "type": "block",
-    "code": "chest-{type}-east",
+    "code": "chest-{type}",
     "attributes": { "type": "normal-generic" }
   }
 }

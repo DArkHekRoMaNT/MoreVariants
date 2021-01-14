@@ -48,7 +48,7 @@
   ],
   "attributes": {
     "handbook": {
-      "groupBy": ["metalfence-*"]
+      "groupBy": ["metalfence-*-base-ew", "metalfence-*-top-ew"]
     }
   },
   "textures": {
@@ -58,7 +58,8 @@
   },
   "creativeinventory": {
     "general": ["metalfence-*-base-ew", "metalfence-*-top-ew"],
-    "decorative": ["metalfence-*-base-ew", "metalfence-*-top-ew"]
+    "decorative": ["metalfence-*-base-ew", "metalfence-*-top-ew"],
+    "morevariants": ["metalfence-*-base-ew", "metalfence-*-top-ew"]
   },
   "shapebytype": {
     "*-empty": { "base": "game:block/metal/fence/base/empty" },

@@ -1,5 +1,5 @@
 {
-  "code": "chest",
+  "code": "labeledchest",
   "class": "BlockGenericTypedContainer",
   "entityclass": "GenericTypedContainer",
   "behaviors": [{ "name": "Lockable" }, { "name": "Container" }],
@@ -7,31 +7,31 @@
   "attributes": {
     "partialAttachable": true,
     "inventoryClassName": "chest",
-    "defaultType": "normal-generic",
-    "types": ["normal-generic"],
+    "defaultType": "normal-labeled",
+    "types": ["normal-labeled"],
     "rotatatableInterval": {
-      "normal-generic": "22.5degnot45deg"
+      "normal-labeled": "22.5degnot45deg"
     },
     "drop": {
-      "normal-generic": true
+      "normal-labeled": true
     },
     "quantitySlots": {
-      "normal-generic": 16
+      "normal-labeled": 16
     },
     "dialogTitleLangCode": {
-      "normal-generic": "chestcontents"
+      "normal-labeled": "chestcontents"
     },
     "storageType": {
-      "normal-generic": 189
+      "normal-labeled": 189
     },
     "retrieveOnly": {
-      "normal-generic": false
+      "normal-labeled": false
     },
     "shape": {
-      "normal-generic": "game:block/wood/chest/normal"
+      "normal-labeled": "game:block/wood/chest/normal-labeled"
     },
     "variantByGroup": "variant",
-    "variantByGroupInventory": "variant",
+    "variantByGroupInventory": "null",
     "openSound": "game:sounds/block/largechestopen",
     "closeSound": "game:sounds/block/largechestclose"
   },
@@ -41,16 +41,20 @@
       "states": ["birch", "maple", "pine", "acacia", "kapok", "aged"]
     }
   ],
-  "shapeInventory": { "base": "game:block/wood/chest/normal", "rotateY": 270 },
-  "shape": { "base": "game:block/wood/chest/normal" },
+  "shapeInventory": {
+    "base": "game:block/wood/chest/normal-labeled",
+    "rotateY": 270
+  },
+  "shape": { "base": "game:block/wood/chest/normal-labeled" },
   "textures": {
-    "normal-generic-accessories": {
+    "normal-labeled-label": { "base": "game:block/wood/chest/label" },
+    "normal-labeled-accessories": {
       "base": "morevariants:block/wood/trunk/accessories"
     },
-    "normal-generic-lid": {
+    "normal-labeled-lid": {
       "base": "morevariants:block/wood/trunk/lid/{variant}"
     },
-    "normal-generic-sides2": {
+    "normal-labeled-sides2": {
       "base": "morevariants:block/wood/trunk/sides/{variant}"
     }
   },
@@ -61,8 +65,8 @@
       "stacks": [
         {
           "type": "block",
-          "code": "chest-{variant}",
-          "attributes": { "type": "normal-generic" }
+          "code": "labeledchest-{variant}",
+          "attributes": { "type": "normal-labeled" }
         }
       ]
     }

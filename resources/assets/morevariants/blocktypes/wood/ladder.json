@@ -8,11 +8,18 @@
     }
   },
   "variantgroups": [
-    { "code": "type", "states": ["birch", "maple", "pine", "acacia", "kapok", "aged"] },
+    {
+      "code": "type",
+      "states": ["birch", "maple", "pine", "acacia", "kapok", "aged"]
+    },
     { "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
   ],
   "texture": { "base": "block/wood/ladder/{type}" },
-  "creativeinventory": { "general": ["ladder-*-north"], "decorative": ["ladder-*-north"] },
+  "creativeinventory": {
+    "general": ["ladder-*-north"],
+    "decorative": ["ladder-*-north"],
+    "morevariants": ["ladder-*-north"]
+  },
   "shapeinventory": { "base": "game:block/wood/ladder-inventory" },
   "shapebytype": {
     "*-north": { "base": "game:block/wood/ladder", "rotateY": 0 },

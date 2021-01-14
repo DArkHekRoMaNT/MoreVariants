@@ -14,54 +14,177 @@
       }
     }
   },
-  "variantgroups": [{ "code": "metal", "states": ["iron", "copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "steel", "brass", "bismuth", "tin", "molybdochalkos", "cursed"] }, { "loadFromProperties": "game:abstract/horizontalorientation" }, { "code": "part", "states": ["down", "up"] }, { "code": "state", "states": ["closed", "opened"] }, { "code": "knobOrientation", "states": ["left", "right"] }],
+  "variantgroups": [
+    {
+      "code": "metal",
+      "states": [
+        "iron",
+        "copper",
+        "tinbronze",
+        "bismuthbronze",
+        "blackbronze",
+        "silver",
+        "gold",
+        "steel",
+        "brass",
+        "bismuth",
+        "tin",
+        "molybdochalkos",
+        "cursed"
+      ]
+    },
+    { "loadFromProperties": "game:abstract/horizontalorientation" },
+    { "code": "part", "states": ["down", "up"] },
+    { "code": "state", "states": ["closed", "opened"] },
+    { "code": "knobOrientation", "states": ["left", "right"] }
+  ],
   "textures": {
     "bottom-right": { "base": "block/metal/door/{metal}/bottom-right" },
     "sides": { "base": "block/metal/door/{metal}/sides" },
     "top-right": { "base": "block/metal/door/{metal}/top-right" }
   },
-  "creativeinventory": { "general": ["metaldoor-*-north-down-closed-left"], "decorative": ["metaldoor-*-north-down-closed-left"] },
+  "creativeinventory": {
+    "general": ["metaldoor-*-north-down-closed-left"],
+    "decorative": ["metaldoor-*-north-down-closed-left"],
+    "morevariants": ["metaldoor-*-north-down-closed-left"]
+  },
   "shapeinventory": { "base": "game:block/metal/iron/door/inventory" },
   "shapebytype": {
-    "*-north-down-closed-left": { "base": "game:block/metal/iron/door/down_closed_left", "rotateY": 90 },
-    "*-north-up-closed-left": { "base": "game:block/metal/iron/door/up_closed_left", "rotateY": 90 },
-    "*-north-down-opened-left": { "base": "game:block/metal/iron/door/down_opened_left", "rotateY": 90 },
-    "*-north-up-opened-left": { "base": "game:block/metal/iron/door/up_opened_left", "rotateY": 90 },
+    "*-north-down-closed-left": {
+      "base": "game:block/metal/iron/door/down_closed_left",
+      "rotateY": 90
+    },
+    "*-north-up-closed-left": {
+      "base": "game:block/metal/iron/door/up_closed_left",
+      "rotateY": 90
+    },
+    "*-north-down-opened-left": {
+      "base": "game:block/metal/iron/door/down_opened_left",
+      "rotateY": 90
+    },
+    "*-north-up-opened-left": {
+      "base": "game:block/metal/iron/door/up_opened_left",
+      "rotateY": 90
+    },
 
-    "*-east-down-closed-left": { "base": "game:block/metal/iron/door/down_closed_left", "rotateY": 0 },
-    "*-east-up-closed-left": { "base": "game:block/metal/iron/door/up_closed_left", "rotateY": 0 },
-    "*-east-down-opened-left": { "base": "game:block/metal/iron/door/down_opened_left", "rotateY": 0 },
-    "*-east-up-opened-left": { "base": "game:block/metal/iron/door/up_opened_left", "rotateY": 0 },
+    "*-east-down-closed-left": {
+      "base": "game:block/metal/iron/door/down_closed_left",
+      "rotateY": 0
+    },
+    "*-east-up-closed-left": {
+      "base": "game:block/metal/iron/door/up_closed_left",
+      "rotateY": 0
+    },
+    "*-east-down-opened-left": {
+      "base": "game:block/metal/iron/door/down_opened_left",
+      "rotateY": 0
+    },
+    "*-east-up-opened-left": {
+      "base": "game:block/metal/iron/door/up_opened_left",
+      "rotateY": 0
+    },
 
-    "*-south-down-closed-left": { "base": "game:block/metal/iron/door/down_closed_left", "rotateY": 270 },
-    "*-south-up-closed-left": { "base": "game:block/metal/iron/door/up_closed_left", "rotateY": 270 },
-    "*-south-down-opened-left": { "base": "game:block/metal/iron/door/down_opened_left", "rotateY": 270 },
-    "*-south-up-opened-left": { "base": "game:block/metal/iron/door/up_opened_left", "rotateY": 270 },
+    "*-south-down-closed-left": {
+      "base": "game:block/metal/iron/door/down_closed_left",
+      "rotateY": 270
+    },
+    "*-south-up-closed-left": {
+      "base": "game:block/metal/iron/door/up_closed_left",
+      "rotateY": 270
+    },
+    "*-south-down-opened-left": {
+      "base": "game:block/metal/iron/door/down_opened_left",
+      "rotateY": 270
+    },
+    "*-south-up-opened-left": {
+      "base": "game:block/metal/iron/door/up_opened_left",
+      "rotateY": 270
+    },
 
-    "*-west-down-closed-left": { "base": "game:block/metal/iron/door/down_closed_left", "rotateY": 180 },
-    "*-west-up-closed-left": { "base": "game:block/metal/iron/door/up_closed_left", "rotateY": 180 },
-    "*-west-down-opened-left": { "base": "game:block/metal/iron/door/down_opened_left", "rotateY": 180 },
-    "*-west-up-opened-left": { "base": "game:block/metal/iron/door/up_opened_left", "rotateY": 180 },
+    "*-west-down-closed-left": {
+      "base": "game:block/metal/iron/door/down_closed_left",
+      "rotateY": 180
+    },
+    "*-west-up-closed-left": {
+      "base": "game:block/metal/iron/door/up_closed_left",
+      "rotateY": 180
+    },
+    "*-west-down-opened-left": {
+      "base": "game:block/metal/iron/door/down_opened_left",
+      "rotateY": 180
+    },
+    "*-west-up-opened-left": {
+      "base": "game:block/metal/iron/door/up_opened_left",
+      "rotateY": 180
+    },
 
-    "*-north-down-closed-right": { "base": "game:block/metal/iron/door/down_closed_right", "rotateY": 90 },
-    "*-north-up-closed-right": { "base": "game:block/metal/iron/door/up_closed_right", "rotateY": 90 },
-    "*-north-down-opened-right": { "base": "game:block/metal/iron/door/down_opened_right", "rotateY": 90 },
-    "*-north-up-opened-right": { "base": "game:block/metal/iron/door/up_opened_right", "rotateY": 90 },
+    "*-north-down-closed-right": {
+      "base": "game:block/metal/iron/door/down_closed_right",
+      "rotateY": 90
+    },
+    "*-north-up-closed-right": {
+      "base": "game:block/metal/iron/door/up_closed_right",
+      "rotateY": 90
+    },
+    "*-north-down-opened-right": {
+      "base": "game:block/metal/iron/door/down_opened_right",
+      "rotateY": 90
+    },
+    "*-north-up-opened-right": {
+      "base": "game:block/metal/iron/door/up_opened_right",
+      "rotateY": 90
+    },
 
-    "*-east-down-closed-right": { "base": "game:block/metal/iron/door/down_closed_right", "rotateY": 0 },
-    "*-east-up-closed-right": { "base": "game:block/metal/iron/door/up_closed_right", "rotateY": 0 },
-    "*-east-down-opened-right": { "base": "game:block/metal/iron/door/down_opened_right", "rotateY": 0 },
-    "*-east-up-opened-right": { "base": "game:block/metal/iron/door/up_opened_right", "rotateY": 0 },
+    "*-east-down-closed-right": {
+      "base": "game:block/metal/iron/door/down_closed_right",
+      "rotateY": 0
+    },
+    "*-east-up-closed-right": {
+      "base": "game:block/metal/iron/door/up_closed_right",
+      "rotateY": 0
+    },
+    "*-east-down-opened-right": {
+      "base": "game:block/metal/iron/door/down_opened_right",
+      "rotateY": 0
+    },
+    "*-east-up-opened-right": {
+      "base": "game:block/metal/iron/door/up_opened_right",
+      "rotateY": 0
+    },
 
-    "*-south-down-closed-right": { "base": "game:block/metal/iron/door/down_closed_right", "rotateY": 270 },
-    "*-south-up-closed-right": { "base": "game:block/metal/iron/door/up_closed_right", "rotateY": 270 },
-    "*-south-down-opened-right": { "base": "game:block/metal/iron/door/down_opened_right", "rotateY": 270 },
-    "*-south-up-opened-right": { "base": "game:block/metal/iron/door/up_opened_right", "rotateY": 270 },
+    "*-south-down-closed-right": {
+      "base": "game:block/metal/iron/door/down_closed_right",
+      "rotateY": 270
+    },
+    "*-south-up-closed-right": {
+      "base": "game:block/metal/iron/door/up_closed_right",
+      "rotateY": 270
+    },
+    "*-south-down-opened-right": {
+      "base": "game:block/metal/iron/door/down_opened_right",
+      "rotateY": 270
+    },
+    "*-south-up-opened-right": {
+      "base": "game:block/metal/iron/door/up_opened_right",
+      "rotateY": 270
+    },
 
-    "*-west-down-closed-right": { "base": "game:block/metal/iron/door/down_closed_right", "rotateY": 180 },
-    "*-west-up-closed-right": { "base": "game:block/metal/iron/door/up_closed_right", "rotateY": 180 },
-    "*-west-down-opened-right": { "base": "game:block/metal/iron/door/down_opened_right", "rotateY": 180 },
-    "*-west-up-opened-right": { "base": "game:block/metal/iron/door/up_opened_right", "rotateY": 180 }
+    "*-west-down-closed-right": {
+      "base": "game:block/metal/iron/door/down_closed_right",
+      "rotateY": 180
+    },
+    "*-west-up-closed-right": {
+      "base": "game:block/metal/iron/door/up_closed_right",
+      "rotateY": 180
+    },
+    "*-west-down-opened-right": {
+      "base": "game:block/metal/iron/door/down_opened_right",
+      "rotateY": 180
+    },
+    "*-west-up-opened-right": {
+      "base": "game:block/metal/iron/door/up_opened_right",
+      "rotateY": 180
+    }
   },
   "blockmaterial": "Metal",
   "replaceable": 500,

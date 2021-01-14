@@ -12,7 +12,11 @@
   "skipVariants": ["morevariants:forge-granite"],
   "blockmaterial": "Stone",
   "renderpass": "OpaqueNoCull",
-  "creativeinventory": { "general": ["*"], "decorative": ["*"] },
+  "creativeinventory": {
+    "general": ["*"],
+    "decorative": ["*"],
+    "morevariants": ["*"]
+  },
   "replaceable": 500,
   "lightAbsorption": 0,
   "resistance": 3.5,
