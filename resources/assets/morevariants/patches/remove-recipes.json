@@ -28,14 +28,6 @@
     }
   },
   {
-    "file": "game:recipes/grid/chest.json",
-    "op": "replace",
-    "path": "/ingredients",
-    "value": {
-      "W": { "type": "item", "code": "plank-oak" }
-    }
-  },
-  {
     "file": "game:recipes/grid/door.json",
     "op": "replace",
     "path": "/ingredients",
